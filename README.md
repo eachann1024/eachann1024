@@ -3,7 +3,8 @@
 <div align="center">
 
 
-![Skill Icons](https://skillicons.dev/icons?i=ts,vue,react,nodejs,nextjs,tailwind,docker,figma&theme=dark&perline=8)
+![Skill Icons](https://skillicons.dev/icons?i=ts,vue,react,nodejs,nextjs,tailwind,docker,mongodb,mysql,nestjs,nginx,postgres,redis&theme=dark&perline=13)
+
 
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=eachann1024&theme=react-dark&hide_border=true)
