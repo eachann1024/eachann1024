@@ -1,64 +1,64 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img alt="Eachann profile control plane" src="assets/hero-light.svg" width="100%">
+  <img alt="Eachann 的个人工具控制台" src="assets/hero-light.svg" width="100%">
 </picture>
 
-Building calm, local-first tools for notes, bookmarks, automation, security, and personal AI\.
+打造安静、可靠且掌控数据的个人工具：笔记、书签、自动化、安全与个人 AI。
 
-## Flagship systems
+## 核心项目
 
-| Repository | Role | Purpose |
+| 仓库 | 角色 | 用途 |
 | --- | --- | --- |
-| [`goose-notes`](https://github.com/eachann1024/goose-notes) | CAPTURE | Local-first block notes with AI, global search, quick capture, and uTools/browser support\. |
-| [`goose-mark`](https://github.com/eachann1024/goose-mark) | ORGANIZE | Cross-platform bookmarks with nested groups, full-text search, AI enrichment, and import/export\. |
-| [`ai-assistant-blueprint`](https://github.com/eachann1024/ai-assistant-blueprint) | DESIGN | An implementation-ready architecture and prompt specification for building a personal AI assistant\. |
-| [`goose-run`](https://github.com/eachann1024/goose-run) | AUTOMATE | Run local scripts in one click and stream logs through a uTools plugin or Tauri desktop app\. |
-| [`goose-2fa`](https://github.com/eachann1024/goose-2fa) | PROTECT | A local two-factor authentication tool built with Tauri\. |
+| [`goose-notes`](https://github.com/eachann1024/goose-notes) | 记录 | 本地优先的块笔记，支持 AI、全局搜索、快速速记，并兼容 uTools 与浏览器。 |
+| [`goose-mark`](https://github.com/eachann1024/goose-mark) | 整理 | 跨平台书签管理器，支持二级分组、全文搜索、AI 补全和导入导出。 |
+| [`ai-assistant-blueprint`](https://github.com/eachann1024/ai-assistant-blueprint) | 设计 | 可直接用于实现个人 AI 助手的完整架构蓝图与提示词规范。 |
+| [`goose-run`](https://github.com/eachann1024/goose-run) | 自动化 | 一键运行本地脚本，并通过 uTools 插件或 Tauri 桌面应用实时查看日志。 |
+| [`goose-2fa`](https://github.com/eachann1024/goose-2fa) | 保护 | 基于 Tauri 构建的本地双因素认证工具。 |
 
-## Closed-loop architecture
+## 工具链架构
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/closed-loop-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/closed-loop-light.svg">
-  <img alt="Eachann architecture map" src="assets/closed-loop-light.svg" width="100%">
+  <img alt="Eachann 的工具链架构图" src="assets/closed-loop-light.svg" width="100%">
 </picture>
 
-## Module registry
+## 项目目录
 
 <details>
-<summary><strong>Goose product suite</strong> · 5 modules</summary>
+<summary><strong>Goose 产品系列</strong> · 5 个项目</summary>
 
-| Module | Purpose |
+| 项目 | 用途 |
 | --- | --- |
-| [`goose-notes`](https://github.com/eachann1024/goose-notes) | Local-first, Notion-style notes with built-in AI capabilities\. |
-| [`goose-mark`](https://github.com/eachann1024/goose-mark) | Minimal bookmark management with search, AI enrichment, and multi-platform packaging\. |
-| [`goose-run`](https://github.com/eachann1024/goose-run) | One-click local script execution with real-time logs\. |
-| [`goose-2fa`](https://github.com/eachann1024/goose-2fa) | Local two-factor authentication built with Tauri\. |
-| [`goose-note-mac`](https://github.com/eachann1024/goose-note-mac) | A Swift and WKWebView macOS shell for Goose Notes\. |
+| [`goose-notes`](https://github.com/eachann1024/goose-notes) | 内置 AI 能力的本地优先 Notion 风格笔记应用。 |
+| [`goose-mark`](https://github.com/eachann1024/goose-mark) | 支持搜索、AI 补全和多平台打包的极简书签管理器。 |
+| [`goose-run`](https://github.com/eachann1024/goose-run) | 支持实时日志的本地脚本一键运行工具。 |
+| [`goose-2fa`](https://github.com/eachann1024/goose-2fa) | 基于 Tauri 构建的本地双因素认证工具。 |
+| [`goose-note-mac`](https://github.com/eachann1024/goose-note-mac) | Goose Notes 的 Swift 与 WKWebView macOS 客户端。 |
 
 </details>
 
 <details>
-<summary><strong>AI and automation</strong> · 2 modules</summary>
+<summary><strong>AI 与自动化</strong> · 2 个项目</summary>
 
-| Module | Purpose |
+| 项目 | 用途 |
 | --- | --- |
-| [`ai-assistant-blueprint`](https://github.com/eachann1024/ai-assistant-blueprint) | An architecture blueprint and prompt specification for a personal AI assistant\. |
-| [`web-scripts`](https://github.com/eachann1024/web-scripts) | Browser scripts for improving everyday developer workflows\. |
+| [`ai-assistant-blueprint`](https://github.com/eachann1024/ai-assistant-blueprint) | 个人 AI 助手的架构蓝图与提示词规范。 |
+| [`web-scripts`](https://github.com/eachann1024/web-scripts) | 用于改善日常开发体验的浏览器脚本。 |
 
 </details>
 
 <details>
-<summary><strong>Presence and resources</strong> · 2 modules</summary>
+<summary><strong>个人展示与资源</strong> · 2 个项目</summary>
 
-| Module | Purpose |
+| 项目 | 用途 |
 | --- | --- |
-| [`intro-page-static`](https://github.com/eachann1024/intro-page-static) | A static personal introduction site\. |
-| [`Resources`](https://github.com/eachann1024/Resources) | A personal collection of useful resources\. |
+| [`intro-page-static`](https://github.com/eachann1024/intro-page-static) | 个人介绍静态站点。 |
+| [`Resources`](https://github.com/eachann1024/Resources) | 个人实用资源收藏。 |
 
 </details>
 
-<p align="center"><a href="https://github.com/eachann1024">GitHub</a></p>
+<p align="center"><a href="https://github.com/eachann1024">GitHub 主页</a></p>
 
-<!-- Generated by profile-control-plane. Edit profile.yaml, not this file. -->
+<!-- 由 profile-control-plane 生成。 -->
