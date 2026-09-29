@@ -6,8 +6,6 @@
 
 把日常工作里的摩擦，做成值得反复使用的工具。
 
-[GitHub ↗](https://github.com/eachann1024) · [静态首图](assets/poster.png)
-
 ## 01 / Native workspace
 
 ### goose-herdr-gpui
@@ -19,8 +17,6 @@ macOS Rust/GPUI 客户端，组织 Herdr 会话、SSH 与终端分栏。
 `Rust · GPUI · gpui-component · zed-terminal`
 
 ![Herdr — sessions, SSH and split terminals](assets/herdr.gif)
-
-[静态图](assets/herdr-poster.png)
 
 ## 02 / A space for thought
 
@@ -34,17 +30,13 @@ macOS Rust/GPUI 客户端，组织 Herdr 会话、SSH 与终端分栏。
 
 ![Goose Note — capture and connected ideas](assets/notes.gif)
 
-[静态图](assets/notes-poster.png)
-
 ## 03 / The Pi collection
 
-**Pi packages · 5K+ downloads**¹
+**Pi packages · 5K+ downloads**
 
 三个独立扩展，为模型选择、回复表达与终端专注各尽其职。
 
 ![Pi collection — three independent tools](assets/pi.gif)
-
-[静态图](assets/pi-poster.png)
 
 ### [pi-jev-route](https://github.com/eachann1024/pi-jev-route)
 
@@ -144,13 +136,3 @@ macOS 统一应用启动器，聚合原源码组件。
 
 `TypeScript · React · Raycast API / Utils`
 
-<details>
-<summary>About this collection · 作品与数据说明</summary>
-
-Herdr、Goose Hub、Goose Mark、Goose Monitor 与三个 Raycast 项目为 Private / In development 展示，未附未经确认的公开入口。Goose Note 链接通向公开发行页。
-
-¹ 5K+ 下载量由用户提供，未核实统一统计口径。公开 npm 窗口 2026-01-01 至 2026-09-29 三包合计 4,878；不是每包或月下载量。
-
-动画是原创概念美术，不代表实际界面、运行状态或包之间的架构依赖。每幅图都提供静态版本；Markdown 正文与链接可独立阅读。
-
-</details>
