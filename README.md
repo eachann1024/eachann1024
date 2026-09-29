@@ -1,12 +1,8 @@
-![EACHANN / 1024 — Phosphor workspace](assets/hero.gif)
-
-# eachann1024
-
-**Desktop tools. Terminal thinking.**
+![Eachann — Obsidian Orbit](assets/hero.gif)
 
 把日常工作里的摩擦，做成值得反复使用的工具。
 
-## 01 / Native workspace
+![Goose Herdr](assets/herdr.gif)
 
 ### goose-herdr-gpui
 
@@ -16,9 +12,7 @@ macOS Rust/GPUI 客户端，组织 Herdr 会话、SSH 与终端分栏。
 
 `Rust · GPUI · gpui-component · zed-terminal`
 
-![Herdr — sessions, SSH and split terminals](assets/herdr.gif)
-
-## 02 / A space for thought
+[![Goose Note](assets/notes.gif)](https://github.com/eachann1024/goose-note-app/releases/latest)
 
 ### [goose-notes](https://github.com/eachann1024/goose-note-app/releases/latest)
 
@@ -28,15 +22,7 @@ macOS Rust/GPUI 客户端，组织 Herdr 会话、SSH 与终端分栏。
 
 `TypeScript · React · Electron · BlockNote`
 
-![Goose Note — capture and connected ideas](assets/notes.gif)
-
-## 03 / The Pi collection
-
-**Pi packages · 5K+ downloads**
-
-三个独立扩展，为模型选择、回复表达与终端专注各尽其职。
-
-![Pi collection — three independent tools](assets/pi.gif)
+![The Pi collection — 3 packages / 5K+ downloads](assets/pi.gif)
 
 ### [pi-jev-route](https://github.com/eachann1024/pi-jev-route)
 
@@ -74,11 +60,9 @@ pi install npm:@each1024/pi-jev-reply
 pi install npm:@each1024/pi-mini-mode
 ```
 
-## 04 / Everyday tools
+## Tools, within reach.
 
-### Goose Hub & family
-
-#### [goose-2fa](https://github.com/eachann1024/goose-2fa)
+### [goose-2fa](https://github.com/eachann1024/goose-2fa)
 
 **Local codes, close at hand.**
 
@@ -86,7 +70,7 @@ pi install npm:@each1024/pi-mini-mode
 
 `TypeScript · React · uTools · MCP`
 
-#### goose-hub
+### goose-hub
 
 **One home for everyday tools.**
 
@@ -94,7 +78,7 @@ macOS 统一应用启动器，聚合原源码组件。
 
 `TypeScript · React · Electron · Rust`
 
-#### goose-mark
+### goose-mark
 
 **Keep the web within reach.**
 
@@ -102,7 +86,7 @@ macOS 统一应用启动器，聚合原源码组件。
 
 `TypeScript · React · Vite · uTools`
 
-#### goose-monitor
+### goose-monitor
 
 **Know what is running.**
 
@@ -110,9 +94,7 @@ macOS 统一应用启动器，聚合原源码组件。
 
 `TypeScript · Vite · uTools · MCP`
 
-### Raycast editions
-
-#### raycast-2fa
+### raycast-2fa
 
 **Codes at command speed.**
 
@@ -120,7 +102,7 @@ macOS 统一应用启动器，聚合原源码组件。
 
 `TypeScript · Raycast API · Swift Vision`
 
-#### raycast-mark
+### raycast-mark
 
 **Bookmarks from the keyboard.**
 
@@ -128,11 +110,10 @@ macOS 统一应用启动器，聚合原源码组件。
 
 `TypeScript · React · Raycast API`
 
-#### raycast-monitor
+### raycast-monitor
 
 **Find. Inspect. Quit.**
 
 按应用名、PID 或端口查找并结束进程。
 
 `TypeScript · React · Raycast API / Utils`
-
