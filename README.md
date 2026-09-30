@@ -12,9 +12,9 @@ macOS Rust/GPUI 客户端，组织 Herdr 会话、SSH 与终端分栏。
 
 `Rust · GPUI · gpui-component · zed-terminal`
 
-[![Goose Note](assets/notes.gif)](https://github.com/eachann1024/goose-note-app/releases/latest)
+[![Goose Note](assets/notes.gif)](https://github.com/eachann1024/goose-notes)
 
-### [goose-notes](https://github.com/eachann1024/goose-note-app/releases/latest)
+### [goose-notes](https://github.com/eachann1024/goose-notes)
 
 **Local Markdown. Quick capture. AI.**
 
@@ -66,7 +66,7 @@ pi install npm:@each1024/pi-mini-mode
 
 **Local codes, close at hand.**
 
-本地 TOTP / HOTP 与脱敏 MCP；uTools 版已冻结并迁入 Goose Hub。
+本地 TOTP / HOTP 与脱敏 MCP；uTools 版已冻结，Goose Hub 尚未公开。
 
 `TypeScript · React · uTools · MCP`
 
@@ -74,7 +74,7 @@ pi install npm:@each1024/pi-mini-mode
 
 **One home for everyday tools.**
 
-macOS 统一应用启动器，聚合原源码组件。
+macOS 统一应用启动器，开发中，代码仓库尚未公开。
 
 `TypeScript · React · Electron · Rust`
 
@@ -82,7 +82,7 @@ macOS 统一应用启动器，聚合原源码组件。
 
 **Keep the web within reach.**
 
-本地书签、模板 URL 与 AI 补全；已迁入 Goose Hub。
+本地书签、模板 URL 与 AI 补全；Goose Hub 尚未公开。
 
 `TypeScript · React · Vite · uTools`
 
@@ -90,7 +90,7 @@ macOS 统一应用启动器，聚合原源码组件。
 
 **Know what is running.**
 
-进程归组、端口与网速；uTools 版已冻结并迁入 Goose Hub。
+进程归组、端口与网速；uTools 版已冻结，Goose Hub 尚未公开。
 
 `TypeScript · Vite · uTools · MCP`
 
