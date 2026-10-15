@@ -1,8 +1,5 @@
 ![Eachann — Obsidian Orbit](assets/hero.gif)
 
-把日常工作里的摩擦，做成值得反复使用的工具。
-
-![Goose Herdr](assets/herdr.gif)
 
 ### goose-herdr-gpui
 
