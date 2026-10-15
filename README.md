@@ -1,10 +1,10 @@
-![Eachann — Obsidian Orbit](assets/hero.gif)
+![Eachann — Obsidian Orbit](assets/hero.svg)
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-[![Goose Note](assets/notes.gif)](https://github.com/eachann1024/goose-notes)
+[![Goose Note](assets/notes.svg)](https://github.com/eachann1024/goose-notes)
 
 ### <img src="https://raw.githubusercontent.com/eachann1024/goose-notes/main/public/logo.png" width="28" height="28" align="absmiddle" alt=""> [goose-notes](https://github.com/eachann1024/goose-notes)
 
@@ -18,7 +18,7 @@
 </td>
 <td width="50%" valign="top">
 
-[![Goose Herdr](assets/herdr.gif)](https://github.com/eachann1024/goose-herdr-gpui)
+[![Goose Herdr](assets/herdr.svg)](https://github.com/eachann1024/goose-herdr-gpui)
 
 ### <img src="https://raw.githubusercontent.com/eachann1024/goose-herdr-gpui/main/resources/icons/app/herdrm-icon-1024.png" width="28" height="28" align="absmiddle" alt=""> [goose-herdr-gpui](https://github.com/eachann1024/goose-herdr-gpui)
 
@@ -33,7 +33,7 @@ Goose Herdr 的 macOS 原生客户端，用 Rust + GPUI 管理 Herdr 会话、SS
 </tr>
 </table>
 
-![The Pi collection — 3 packages / 10K+ downloads](assets/pi.gif)
+![The Pi collection — 3 packages / 10K+ downloads](assets/pi.svg)
 
 <table>
 <tr>

@@ -1,0 +1,239 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Goose Note — local markdown, quick capture, AI" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="duskN" x1="0" y1="0" x2="0.12" y2="1">
+      <stop offset="0" stop-color="#DCEBF6"/>
+      <stop offset="0.4" stop-color="#F1E6EF"/>
+      <stop offset="0.7" stop-color="#FCEBDC"/>
+      <stop offset="1" stop-color="#FDF4E4"/>
+    </linearGradient>
+    <radialGradient id="sunN" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFF6DE"/>
+      <stop offset="0.6" stop-color="#FBD98E"/>
+      <stop offset="1" stop-color="#F3BE65"/>
+    </radialGradient>
+    <radialGradient id="sunHaloN" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0.38" stop-color="#FBD98E" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#FBD98E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hillFarN" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#CBDCEB"/><stop offset="1" stop-color="#DEE9F2"/>
+    </linearGradient>
+    <linearGradient id="hillMidN" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3DAB7"/><stop offset="1" stop-color="#EDC99A"/>
+    </linearGradient>
+    <linearGradient id="hillNearN" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E4B786"/><stop offset="1" stop-color="#D7A471"/>
+    </linearGradient>
+    <linearGradient id="cardN" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFDF7"/><stop offset="1" stop-color="#FDF3E3"/>
+    </linearGradient>
+    <filter id="softN" x="-45%" y="-45%" width="190%" height="190%"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="dropN" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#B98A5C" flood-opacity=".22"/>
+    </filter>
+    <filter id="paperN" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <clipPath id="frameN"><rect x="0" y="0" width="1200" height="420" rx="20"/></clipPath>
+  </defs>
+  <style>
+  .serif{font-family:Georgia,"Iowan Old Style","Palatino Linotype","Times New Roman",serif}
+  .sans{font-family:ui-sans-serif,-apple-system,"Helvetica Neue",Helvetica,Arial,sans-serif}
+  .mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+  .cjk{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif}
+
+  .tw{animation:tw 4.4s ease-in-out infinite}
+  .a1{animation-delay:.5s}.a2{animation-delay:1s}.a3{animation-delay:1.6s}
+  .a4{animation-delay:2.2s}.a5{animation-delay:2.9s}.a6{animation-delay:3.5s}
+  .rise{animation:rise 9s ease-in-out infinite}
+  .halo{transform-box:fill-box;transform-origin:center;animation:halo 7s ease-in-out infinite}
+  .drift{animation:drift 30s linear infinite}
+  .drift2{animation:drift 42s linear infinite;animation-delay:-11s}
+  .birds{animation:fly 22s linear infinite}
+  .flap{transform-box:fill-box;transform-origin:center;animation:flap 1.1s ease-in-out infinite}
+
+  .cape{transform-box:fill-box;transform-origin:78% 8%;animation:cape 4.6s ease-in-out infinite}
+  .scarf{transform-box:fill-box;transform-origin:4% 86%;animation:scarf 3.2s ease-in-out infinite}
+  .tuft{transform-box:fill-box;transform-origin:14% 96%;animation:tuft 3.8s ease-in-out infinite}
+  .tail{transform-box:fill-box;transform-origin:6% 82%;animation:tail 2.9s ease-in-out infinite}
+  .ear{transform-box:fill-box;animation:ear 5.4s ease-in-out infinite}
+  .nod{transform-box:fill-box;animation:nod 5.6s ease-in-out infinite}
+  .bloom{transform-box:fill-box;animation:bloom 6.2s ease-in-out infinite}
+  .blink{animation:blink 5.6s steps(1,end) infinite}
+
+  .caret{animation:caret 1.1s steps(1,end) infinite}
+  .typing{animation:typing 4.4s ease-in-out infinite}
+  .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 3s ease-in-out infinite}
+  .dash{stroke-dasharray:6 8;animation:dash 6s linear infinite}
+  .ride{animation:ride 7.5s ease-in-out infinite}
+  .bar{transform-box:fill-box;transform-origin:center bottom;animation:bar 2.6s ease-in-out infinite}
+
+  @keyframes tw{0%,100%{opacity:.18}50%{opacity:1}}
+  @keyframes rise{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+  @keyframes halo{0%,100%{transform:scale(1);opacity:.72}50%{transform:scale(1.07);opacity:1}}
+  @keyframes drift{from{transform:translateX(-170px)}to{transform:translateX(1370px)}}
+  @keyframes fly{from{transform:translate(-130px,26px)}to{transform:translate(1330px,-44px)}}
+  @keyframes flap{0%,100%{transform:scaleY(1)}50%{transform:scaleY(.42)}}
+  @keyframes cape{0%,100%{transform:rotate(-4deg) skewX(0)}50%{transform:rotate(5deg) skewX(-4deg)}}
+  @keyframes scarf{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(10deg)}}
+  @keyframes tuft{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(7deg)}}
+  @keyframes tail{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(11deg)}}
+  @keyframes ear{0%,90%,100%{transform:rotate(0)}94%{transform:rotate(-10deg)}}
+  @keyframes nod{0%,100%{transform:rotate(0)}48%{transform:rotate(6deg)}}
+  @keyframes bloom{0%,100%{transform:scale(1)}50%{transform:scale(1.07)}}
+  @keyframes blink{0%,93%{opacity:1}94%,97%{opacity:0}98%,100%{opacity:1}}
+  @keyframes caret{0%,49%{opacity:1}50%,100%{opacity:0}}
+  @keyframes typing{0%{transform:scaleX(.08)}55%,100%{transform:scaleX(1)}}
+  @keyframes pulse{0%,100%{opacity:.4;transform:scale(.88)}50%{opacity:1;transform:scale(1)}}
+  @keyframes dash{to{stroke-dashoffset:-140}}
+  @keyframes ride{0%,100%{transform:translateX(0)}50%{transform:translateX(118px)}}
+  @keyframes bar{0%,100%{transform:scaleY(.45)}50%{transform:scaleY(1)}}
+
+  @media(prefers-reduced-motion:reduce){
+    .tw,.rise,.halo,.drift,.drift2,.birds,.flap,.cape,.scarf,.tuft,.tail,.ear,.nod,
+    .bloom,.blink,.caret,.typing,.pulse,.dash,.ride,.bar{animation:none}
+  }
+</style>
+  <g clip-path="url(#frameN)">
+    <rect width="1200" height="420" fill="url(#duskN)"/>
+    <g transform="translate(1028 150)"><circle class="halo" r="125" fill="url(#sunHaloN)"/><circle class="rise" r="64" fill="url(#sunN)"/></g>
+    <g fill="#C79B52">
+    <circle class="tw a0" cx="120" cy="74" r="1.8"/>
+    <circle class="tw a1" cx="340" cy="54" r="1.6"/>
+    <circle class="tw a2" cx="900" cy="62" r="1.8"/>
+    <circle class="tw a3" cx="612" cy="96" r="1.5"/>
+    <circle class="tw a4" cx="232" cy="128" r="1.4"/>
+    </g>
+    <g stroke="#C79B52" stroke-width="1.3" stroke-linecap="round" fill="none">
+    <g class="tw a2" transform="translate(176 112)"><path d="M0-7V7M-7 0H7M-4.8-4.8 4.8 4.8M4.8-4.8-4.8 4.8"/></g>
+    <g class="tw a3" transform="translate(764 56)"><path d="M0-6V6M-6 0H6"/></g>
+    <g class="tw a4" transform="translate(1150 120)"><path d="M0-7V7M-7 0H7M-4.8-4.8 4.8 4.8M4.8-4.8-4.8 4.8"/></g>
+    </g>
+    <g fill="#FFFFFF">
+      <g class="drift" opacity=".72"><ellipse cx="0" cy="92" rx="64" ry="15"/><ellipse cx="42" cy="85" rx="44" ry="19"/><ellipse cx="-40" cy="96" rx="34" ry="11"/></g>
+      <g class="drift2" opacity=".5"><ellipse cx="0" cy="162" rx="52" ry="12"/><ellipse cx="35" cy="157" rx="35" ry="15"/></g>
+    </g>
+    <path d="M0 282c152-44 252 8 374-18s214-62 352-34 290 70 474 34v420H0Z" fill="url(#hillFarN)" opacity=".92"/>
+    <path d="M0 322c168-52 286 16 420-10s240-50 388-16 266 58 392 26v420H0Z" fill="url(#hillMidN)"/>
+    <path d="M0 360c180-40 330 18 486-4s268-36 420-8 196 28 294 14v420H0Z" fill="url(#hillNearN)"/>
+
+    <!-- 纸张：层叠的笔记卡片 -->
+    <g transform="translate(636 92)" filter="url(#dropN)">
+      <g transform="rotate(-5)" opacity=".55">
+        <rect x="18" y="10" width="250" height="160" rx="12" fill="url(#cardN)" stroke="#D9C4A2"/>
+      </g>
+      <g transform="translate(36 -4) rotate(3)" opacity=".8">
+        <rect x="18" y="10" width="250" height="160" rx="12" fill="url(#cardN)" stroke="#D9C4A2"/>
+      </g>
+      <g transform="translate(74 6)">
+        <rect width="264" height="168" rx="12" fill="url(#cardN)" stroke="#D9C4A2"/>
+        <path d="M0 34h264" stroke="#D9C4A2" opacity=".7"/>
+        <g fill="#E0863F" opacity=".85"><circle cx="20" cy="18" r="3.4"/><circle cx="33" cy="18" r="3.4" fill="#E6B45A"/><circle cx="46" cy="18" r="3.4" fill="#8FAE7F"/></g>
+        <text class="mono" x="244" y="22" text-anchor="end" font-size="8.5" letter-spacing="1.8" fill="#64788A">MARKDOWN</text>
+        <rect x="26" y="50" width="96" height="7" rx="3.5" fill="#E0863F" opacity=".75"/>
+        <rect class="typing" style="transform-box:fill-box;transform-origin:left center;animation-delay:0.2s" x="26" y="70" width="196" height="5" rx="2.5" fill="#B9CBD9"/><rect class="typing" style="transform-box:fill-box;transform-origin:left center;animation-delay:0.6s" x="26" y="86" width="158" height="5" rx="2.5" fill="#B9CBD9"/><rect class="typing" style="transform-box:fill-box;transform-origin:left center;animation-delay:1.0s" x="26" y="102" width="180" height="5" rx="2.5" fill="#B9CBD9"/><rect class="typing" style="transform-box:fill-box;transform-origin:left center;animation-delay:1.4s" x="26" y="118" width="120" height="5" rx="2.5" fill="#B9CBD9"/>
+        <rect class="caret" x="150" y="115" width="2" height="11" fill="#C4622B"/>
+        <g stroke="#D9C4A2" fill="none"><rect x="26" y="136" width="60" height="18" rx="9"/><rect x="94" y="136" width="44" height="18" rx="9"/></g>
+        <text class="mono" x="56" y="148" text-anchor="middle" font-size="7.5" letter-spacing="1.4" fill="#64788A">CAPTURE</text>
+        <text class="mono" x="116" y="148" text-anchor="middle" font-size="7.5" letter-spacing="1.4" fill="#64788A">AI</text>
+      </g>
+    </g>
+
+    <!-- 小王子与羊 -->
+    <g transform="translate(566 378)"><g transform="scale(1.06)">
+  <ellipse cx="1" cy="1.5" rx="22" ry="3.6" fill="#A87B4E" opacity=".26"/>
+  <g class="cape" style="animation-delay:0.0s">
+    <path d="M-4-63C-26-55-40-30-38-6c-10 2-14-2-13-8C-49-32-30-58-9-66Z" fill="#D65F67"/>
+    <path d="M-4-63C-26-55-38-30-36-8c-9-3-11-14-9-22C-42-44-24-60-7-65Z" fill="#E4747A"/>
+  </g>
+  <g stroke="#2E5F8C" stroke-width="5.2" stroke-linecap="round"><path d="M-5.5-22v13"/><path d="M5.5-22v13"/></g>
+  <g fill="#8A5A32">
+    <path d="M-9.6-9.6h8.2c.9 0 1.4.6 1.4 1.5v4c0 1.1-.7 1.8-1.8 1.8h-8.6c-1.1 0-1.8-.6-1.8-1.6 0-1.3.9-1.9 2-2.4l.6-3.3Z"/>
+    <path d="M1.4-9.6h8.2l.6 3.3c1.1.5 2 1.1 2 2.4 0 1-.7 1.6-1.8 1.6H1.8C.7-2.3 0-3 0-4.1v-4c0-.9.5-1.5 1.4-1.5Z"/>
+  </g>
+  <path d="M-13.5-23c0-15 1.5-27 4-34 2.5-6 16.5-6 19 0 2.5 7 4 19 4 34Z" fill="#3E6F9E"/>
+  <path d="M-13.5-23c0-15 1.5-27 4-34 1.2-2.9 4.8-4.4 8.4-4.5-1.6 10-3 25-2.9 38.5Z" fill="#4A7FB0" opacity=".55"/>
+  <path d="M-13.6-23h27.2" stroke="#2E5F8C" stroke-width="2.4"/>
+  <path d="M-13-31.5h26" stroke="#E0A33F" stroke-width="3"/>
+  <rect x="-2.4" y="-33.4" width="4.8" height="3.8" rx="1" fill="#F2C45C" stroke="#C98B33" stroke-width=".5"/>
+  <g fill="#F2C45C"><circle cx="0" cy="-45" r="1.5"/><circle cx="0" cy="-39" r="1.5"/><circle cx="0" cy="-52" r="1.5"/></g>
+  <path d="M-7.6-57.5 0-52.5l7.6-5c-2-3.2-13.2-3.2-15.2 0Z" fill="#5A93C4"/>
+  <path d="M-12.6-52c-5 4-8 10-8.4 16.4" stroke="#3E6F9E" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M12.6-52c5.4 3.6 8.6 9.4 9.4 15.6" stroke="#3E6F9E" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <circle cx="-21.4" cy="-34.4" r="3" fill="#F7DCAE"/>
+  <circle cx="22.3" cy="-35.2" r="3" fill="#F7DCAE"/>
+  <g class="scarf" style="animation-delay:0.0s">
+    <path d="M12-64c10 2 20 9 26 19-11-6-22-7-28-5Z" fill="#D65F67"/>
+    <path d="M12-64c9 1 18 7 24 15-10-5-20-6-26-4Z" fill="#E4747A"/>
+  </g>
+  <path d="M-9.4-64.5c6 4.2 12.8 4.2 18.8 0l1.4 4.6c-6.6 4.6-15 4.6-21.6 0Z" fill="#E4747A"/>
+  <path d="M-9.4-64.5c6 4.2 12.8 4.2 18.8 0l.5 1.7c-6.4 4-14 4-19.8 0Z" fill="#F08A8F"/>
+  <circle cx="0" cy="-77" r="12.6" fill="#F7DCAE"/>
+  <path d="M-12.6-77a12.6 12.6 0 0 0 25.2 0Z" fill="#EFCF9B" opacity=".4"/>
+  <circle cx="-12.4" cy="-76" r="2.4" fill="#F2D2A0"/><circle cx="12.4" cy="-76" r="2.4" fill="#F2D2A0"/>
+  <g fill="#F2C45C">
+    <path d="M-12.7-78.6c-.6-9.6 5.4-16 12.7-16s13.3 6.4 12.7 16c-1.6-4.2-4-6.4-6.6-6.6-2.2-.2-3.4 1.4-6.1 1.4-2.7 0-3.9-1.6-6.1-1.4-2.6.2-5 2.4-6.6 6.6Z"/>
+    <circle cx="-8.4" cy="-85.6" r="4.4"/><circle cx="0" cy="-89.4" r="5"/><circle cx="8.4" cy="-85.6" r="4.4"/>
+    <circle cx="-12" cy="-80.6" r="3.4"/><circle cx="12" cy="-80.6" r="3.4"/>
+  </g>
+  <g class="tuft" style="animation-delay:0.0s"><path d="M2-92c2.6-5 7-7.4 11.4-6.6-3.6 1.6-5.4 4-6 7.4-2 .6-3.8.2-5.4-.8Z" fill="#F2C45C"/></g>
+  <g fill="#FBE0A4" opacity=".7"><circle cx="-3.6" cy="-88.6" r="2"/><circle cx="5.4" cy="-86.6" r="1.6"/></g>
+  <g class="blink" style="animation-delay:0.0s" fill="#3F4D5A">
+    <ellipse cx="-4" cy="-77.4" rx="1.3" ry="1.6"/><ellipse cx="4" cy="-77.4" rx="1.3" ry="1.6"/>
+  </g>
+  <g stroke="#C9A063" stroke-width=".9" stroke-linecap="round" opacity=".75" fill="none"><path d="M-6-81.2q2-1.2 4 0"/><path d="M2-81.2q2-1.2 4 0"/></g>
+  <g fill="#E9A0A0" opacity=".5"><ellipse cx="-7.4" cy="-73.6" rx="2.4" ry="1.5"/><ellipse cx="7.4" cy="-73.6" rx="2.4" ry="1.5"/></g>
+  <path d="M-2.6-72.4q2.6 2.6 5.2 0" stroke="#C47A6A" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+</g></g>
+    <g transform="translate(486 384)"><g transform="scale(0.9)">
+  <ellipse cx="0" cy="1" rx="18" ry="3.2" fill="#A87B4E" opacity=".22"/>
+  <g stroke="#8C7F8E" stroke-width="2.6" stroke-linecap="round"><path d="M-7-8v7"/><path d="M-2.4-8v7"/><path d="M4-8v7"/><path d="M8.4-8v7"/></g>
+  <g fill="#FFF6E8">
+    <circle cx="-8" cy="-14" r="6.6"/><circle cx="0" cy="-17" r="7.6"/><circle cx="8" cy="-14.4" r="6.8"/>
+    <circle cx="-4" cy="-9.6" r="5.6"/><circle cx="4.4" cy="-9.4" r="5.4"/>
+  </g>
+  <g fill="#EDE0CB" opacity=".8"><circle cx="-6" cy="-10.6" r="2.6"/><circle cx="2.4" cy="-13" r="2.2"/><circle cx="7.6" cy="-16" r="1.8"/></g>
+  <g class="nod" style="animation-delay:0.7s;transform-origin:70% 58%">
+    <path d="M11.6-18.6c-4.2-1-7-3.4-7.4-6.4 3.4.4 6.4 2.2 8.4 4.8Z" fill="#9A8C9C"/>
+    <path d="M24.4-17.6c3-2.8 6.6-3.6 9.4-2-3.2 1.2-5.8 3.2-7.4 5.8Z" fill="#9A8C9C"/>
+    <path d="M11.2-19.6c1.4-3.6 4.6-5.6 8-5.6 3.8 0 7 2.4 8.2 6.4 1 3.4.2 7-2.2 9.4-2 2-4.6 3-7.2 2.8-2.8-.2-5.2-1.6-6.8-4-1.6-2.4-1.8-5.6 0-9Z" fill="#8C7F8E"/>
+    <path d="M12.8-9.6c1.8 1.8 4.2 2.8 6.6 2.6-1 1.6-3 2.2-5 1.6-1-.4-1.6-1.2-1.6-2.4Z" fill="#7A6E7C"/>
+    <g class="blink" style="animation-delay:1.8s">
+      <ellipse cx="14.6" cy="-17.4" rx="1.2" ry="1.5" fill="#2F2A33"/>
+      <ellipse cx="20.6" cy="-16.8" rx="1.2" ry="1.5" fill="#2F2A33"/>
+      <circle cx="14.2" cy="-18" r=".42" fill="#FFFFFF" opacity=".85"/>
+      <circle cx="20.2" cy="-17.4" r=".42" fill="#FFFFFF" opacity=".85"/>
+    </g>
+    <g fill="#5E5460"><circle cx="24.2" cy="-13.4" r=".7"/><circle cx="26" cy="-11.6" r=".7"/></g>
+    <path d="M22.6-9q2 1.2 3.6-.4" stroke="#6F6474" stroke-width=".8" fill="none" stroke-linecap="round"/>
+  </g>
+</g></g>
+    <g transform="translate(662 384)"><g transform="scale(0.72)">
+  <ellipse cx="0" cy="1" rx="22" ry="3.6" fill="#A87B4E" opacity=".2"/>
+  <path d="M-18 0h36v-3.4a2 2 0 0 0-2-2h-32a2 2 0 0 0-2 2Z" fill="#C98B33"/>
+  <path d="M-16-5.4h32V-8h-32Z" fill="#E0A33F"/>
+  <path d="M0-8v-22" stroke="#5C8A55" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <path d="M0-17c-7.4-1-10.6-7.4-10.6-7.4 7.4-1 11.6 3.2 11.6 3.2" fill="#5C8A55" opacity=".9"/>
+  <path d="M0-24c6.4-1 9.6-6.4 9.6-6.4 1 6.4-4.2 9.6-8.6 8.6" fill="#6FA063" opacity=".85"/>
+  <g class="bloom" style="animation-delay:1.2s;transform-origin:50% 76%">
+    <circle cx="0" cy="-34" r="7.4" fill="#D65F67"/>
+    <path d="M-7.4-34a7.4 7.4 0 0 1 14.8 0Z" fill="#E4747A"/>
+    <path d="M-7.4-34c1.4-4.4 5-6.6 7.4-6.6s6 2.2 7.4 6.6c-2.4-2.4-5-3.4-7.4-3.4s-5 1-7.4 3.4Z" fill="#F08A8F"/>
+    <circle cx="0" cy="-34" r="3" fill="#F08A8F"/>
+    <circle cx="0" cy="-34.6" r="1.3" fill="#FBE3DF"/>
+  </g>
+  <path d="M-17-5.4C-17-26-9.6-43 0-43s17 17 17 37.6" fill="#CFE4F2" fill-opacity=".22" stroke="#9FC4DD" stroke-width="1.2"/>
+  <path d="M-10.6-14c-.6-12 2.6-20.4 7-23.6" stroke="#FFFFFF" stroke-width="1.8" fill="none" opacity=".7" stroke-linecap="round"/>
+  <circle cx="0" cy="-44.6" r="2" fill="#9FC4DD"/>
+</g></g>
+    <g stroke="#C08D52" stroke-width="1.6" stroke-linecap="round" opacity=".45" fill="none"><path d="M150 402c4-12 10-16 14-20M170 404c4-12 10-16 14-16M1058 400c4-12 10-16 14-20M1080 402c4-12 10-16 14-16"/></g>
+
+    <text class="mono" x="56" y="48" font-size="11" letter-spacing="3.2" fill="#7D8FA0">01 / A SPACE FOR THOUGHT</text>
+    <text class="serif" x="56" y="166" font-size="62" font-weight="700" letter-spacing="-1" fill="#33465A">Goose Note</text>
+    <path d="M58 190h92" stroke="#E0863F" stroke-width="3" stroke-linecap="round"/>
+    <text class="sans" x="58" y="228" font-size="19" font-weight="600" fill="#4C5E6E">Leave room for the next idea.</text>
+    <text class="mono" x="58" y="262" font-size="10.5" letter-spacing="2.4" fill="#64788A">LOCAL MARKDOWN · QUICK CAPTURE · AI</text>
+    <rect width="1200" height="420" filter="url(#paperN)" opacity=".05"/>
+  </g>
+</svg>

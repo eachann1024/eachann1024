@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="The Pi collection — 3 packages, 10K+ downloads" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="duskP" x1="0" y1="0" x2="0.12" y2="1">
+      <stop offset="0" stop-color="#DCEBF6"/>
+      <stop offset="0.4" stop-color="#F1E6EF"/>
+      <stop offset="0.7" stop-color="#FCEBDC"/>
+      <stop offset="1" stop-color="#FDF4E4"/>
+    </linearGradient>
+    <radialGradient id="sunP" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFF6DE"/>
+      <stop offset="0.6" stop-color="#FBD98E"/>
+      <stop offset="1" stop-color="#F3BE65"/>
+    </radialGradient>
+    <radialGradient id="sunHaloP" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0.38" stop-color="#FBD98E" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#FBD98E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hillFarP" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#CBDCEB"/><stop offset="1" stop-color="#DEE9F2"/>
+    </linearGradient>
+    <linearGradient id="hillMidP" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3DAB7"/><stop offset="1" stop-color="#EDC99A"/>
+    </linearGradient>
+    <linearGradient id="hillNearP" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E4B786"/><stop offset="1" stop-color="#D7A471"/>
+    </linearGradient>
+    <linearGradient id="cardP" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFDF7"/><stop offset="1" stop-color="#FDF3E3"/>
+    </linearGradient>
+    <filter id="softP" x="-45%" y="-45%" width="190%" height="190%"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="dropP" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#B98A5C" flood-opacity=".22"/>
+    </filter>
+    <filter id="paperP" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <clipPath id="frameP"><rect x="0" y="0" width="1200" height="420" rx="20"/></clipPath>
+  </defs>
+  <style>
+  .serif{font-family:Georgia,"Iowan Old Style","Palatino Linotype","Times New Roman",serif}
+  .sans{font-family:ui-sans-serif,-apple-system,"Helvetica Neue",Helvetica,Arial,sans-serif}
+  .mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+  .cjk{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif}
+
+  .tw{animation:tw 4.4s ease-in-out infinite}
+  .a1{animation-delay:.5s}.a2{animation-delay:1s}.a3{animation-delay:1.6s}
+  .a4{animation-delay:2.2s}.a5{animation-delay:2.9s}.a6{animation-delay:3.5s}
+  .rise{animation:rise 9s ease-in-out infinite}
+  .halo{transform-box:fill-box;transform-origin:center;animation:halo 7s ease-in-out infinite}
+  .drift{animation:drift 30s linear infinite}
+  .drift2{animation:drift 42s linear infinite;animation-delay:-11s}
+  .birds{animation:fly 22s linear infinite}
+  .flap{transform-box:fill-box;transform-origin:center;animation:flap 1.1s ease-in-out infinite}
+
+  .cape{transform-box:fill-box;transform-origin:78% 8%;animation:cape 4.6s ease-in-out infinite}
+  .scarf{transform-box:fill-box;transform-origin:4% 86%;animation:scarf 3.2s ease-in-out infinite}
+  .tuft{transform-box:fill-box;transform-origin:14% 96%;animation:tuft 3.8s ease-in-out infinite}
+  .tail{transform-box:fill-box;transform-origin:6% 82%;animation:tail 2.9s ease-in-out infinite}
+  .ear{transform-box:fill-box;animation:ear 5.4s ease-in-out infinite}
+  .nod{transform-box:fill-box;animation:nod 5.6s ease-in-out infinite}
+  .bloom{transform-box:fill-box;animation:bloom 6.2s ease-in-out infinite}
+  .blink{animation:blink 5.6s steps(1,end) infinite}
+
+  .caret{animation:caret 1.1s steps(1,end) infinite}
+  .typing{animation:typing 4.4s ease-in-out infinite}
+  .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 3s ease-in-out infinite}
+  .dash{stroke-dasharray:6 8;animation:dash 6s linear infinite}
+  .ride{animation:ride 7.5s ease-in-out infinite}
+  .bar{transform-box:fill-box;transform-origin:center bottom;animation:bar 2.6s ease-in-out infinite}
+
+  @keyframes tw{0%,100%{opacity:.18}50%{opacity:1}}
+  @keyframes rise{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+  @keyframes halo{0%,100%{transform:scale(1);opacity:.72}50%{transform:scale(1.07);opacity:1}}
+  @keyframes drift{from{transform:translateX(-170px)}to{transform:translateX(1370px)}}
+  @keyframes fly{from{transform:translate(-130px,26px)}to{transform:translate(1330px,-44px)}}
+  @keyframes flap{0%,100%{transform:scaleY(1)}50%{transform:scaleY(.42)}}
+  @keyframes cape{0%,100%{transform:rotate(-4deg) skewX(0)}50%{transform:rotate(5deg) skewX(-4deg)}}
+  @keyframes scarf{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(10deg)}}
+  @keyframes tuft{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(7deg)}}
+  @keyframes tail{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(11deg)}}
+  @keyframes ear{0%,90%,100%{transform:rotate(0)}94%{transform:rotate(-10deg)}}
+  @keyframes nod{0%,100%{transform:rotate(0)}48%{transform:rotate(6deg)}}
+  @keyframes bloom{0%,100%{transform:scale(1)}50%{transform:scale(1.07)}}
+  @keyframes blink{0%,93%{opacity:1}94%,97%{opacity:0}98%,100%{opacity:1}}
+  @keyframes caret{0%,49%{opacity:1}50%,100%{opacity:0}}
+  @keyframes typing{0%{transform:scaleX(.08)}55%,100%{transform:scaleX(1)}}
+  @keyframes pulse{0%,100%{opacity:.4;transform:scale(.88)}50%{opacity:1;transform:scale(1)}}
+  @keyframes dash{to{stroke-dashoffset:-140}}
+  @keyframes ride{0%,100%{transform:translateX(0)}50%{transform:translateX(118px)}}
+  @keyframes bar{0%,100%{transform:scaleY(.45)}50%{transform:scaleY(1)}}
+
+  @media(prefers-reduced-motion:reduce){
+    .tw,.rise,.halo,.drift,.drift2,.birds,.flap,.cape,.scarf,.tuft,.tail,.ear,.nod,
+    .bloom,.blink,.caret,.typing,.pulse,.dash,.ride,.bar{animation:none}
+  }
+</style>
+  <g clip-path="url(#frameP)">
+    <rect width="1200" height="420" fill="url(#duskP)"/>
+    <g transform="translate(602 78)"><circle class="halo" r="90" fill="url(#sunHaloP)"/><circle class="rise" r="46" fill="url(#sunP)"/></g>
+    <g fill="#C79B52">
+    <circle class="tw a0" cx="140" cy="64" r="1.8"/>
+    <circle class="tw a1" cx="362" cy="48" r="1.6"/>
+    <circle class="tw a2" cx="878" cy="52" r="1.7"/>
+    <circle class="tw a3" cx="760" cy="96" r="1.5"/>
+    </g>
+    <g stroke="#C79B52" stroke-width="1.3" stroke-linecap="round" fill="none">
+    <g class="tw a2" transform="translate(214 96)"><path d="M0-7V7M-7 0H7M-4.8-4.8 4.8 4.8M4.8-4.8-4.8 4.8"/></g>
+    <g class="tw a3" transform="translate(698 46)"><path d="M0-6V6M-6 0H6"/></g>
+    <g class="tw a4" transform="translate(1156 104)"><path d="M0-7V7M-7 0H7M-4.8-4.8 4.8 4.8M4.8-4.8-4.8 4.8"/></g>
+    </g>
+    <g fill="#FFFFFF">
+      <g class="drift" opacity=".72"><ellipse cx="0" cy="74" rx="64" ry="15"/><ellipse cx="42" cy="67" rx="44" ry="19"/><ellipse cx="-40" cy="78" rx="34" ry="11"/></g>
+      <g class="drift2" opacity=".5"><ellipse cx="0" cy="128" rx="52" ry="12"/><ellipse cx="35" cy="123" rx="35" ry="15"/></g>
+    </g>
+    <path d="M0 300c152-44 252 8 374-18s214-62 352-34 290 70 474 34v420H0Z" fill="url(#hillFarP)" opacity=".92"/>
+    <path d="M0 336c168-52 286 16 420-10s240-50 388-16 266 58 392 26v420H0Z" fill="url(#hillMidP)"/>
+    <path d="M0 368c180-40 330 18 486-4s268-36 420-8 196 28 294 14v420H0Z" fill="url(#hillNearP)"/>
+
+    <g transform="translate(24 152)" filter="url(#dropP)">
+        <rect width="336" height="156" rx="14" fill="url(#cardP)" stroke="#D9C4A2"/>
+        <text class="mono" x="22" y="30" font-size="9.5" letter-spacing="2.4" fill="#C4622B">01</text>
+        <text class="serif" x="22" y="62" font-size="25" font-weight="700" fill="#33465A">Jev Route</text>
+        <text class="mono" x="22" y="84" font-size="9.5" letter-spacing="1.8" fill="#64788A">THE RIGHT MODEL FOR THE TASK</text>
+        <path d="M22 98h292" stroke="#D9C4A2" opacity=".8"/>
+        <g transform="translate(22 110)">
+          <path d="M0 14h292" stroke="#D9C4A2"/>
+          <path class="dash" d="M0 14h292" stroke="#E0863F" opacity=".8" fill="none"/>
+          <g class="ride"><circle cx="18" cy="14" r="6" fill="#E0863F"/><circle cx="18" cy="14" r="2.4" fill="#FFF6E8"/></g>
+          <g fill="#FFFDF7" stroke="#D9C4A2"><circle cx="18" cy="14" r="4"/><circle cx="155" cy="14" r="4"/><circle cx="292" cy="14" r="4"/></g>
+        </g>
+      </g>
+    <g transform="translate(432 152)" filter="url(#dropP)">
+        <rect width="336" height="156" rx="14" fill="url(#cardP)" stroke="#D9C4A2"/>
+        <text class="mono" x="22" y="30" font-size="9.5" letter-spacing="2.4" fill="#C4622B">02</text>
+        <text class="serif" x="22" y="62" font-size="25" font-weight="700" fill="#33465A">Jev Reply</text>
+        <text class="mono" x="22" y="84" font-size="9.5" letter-spacing="1.8" fill="#64788A">LESS NOISE, MORE CLARITY</text>
+        <path d="M22 98h292" stroke="#D9C4A2" opacity=".8"/>
+        <rect class="typing" style="transform-box:fill-box;transform-origin:left center;animation-delay:0.1s" x="22" y="112" width="250" height="6" rx="3" fill="#B9CBD9"/><rect class="typing" style="transform-box:fill-box;transform-origin:left center;animation-delay:0.5s" x="22" y="126" width="196" height="6" rx="3" fill="#B9CBD9"/><rect class="typing" style="transform-box:fill-box;transform-origin:left center;animation-delay:0.9s" x="22" y="140" width="142" height="6" rx="3" fill="#E0863F"/>
+      </g>
+    <g transform="translate(840 152)" filter="url(#dropP)">
+        <rect width="336" height="156" rx="14" fill="url(#cardP)" stroke="#D9C4A2"/>
+        <text class="mono" x="22" y="30" font-size="9.5" letter-spacing="2.4" fill="#C4622B">03</text>
+        <text class="serif" x="22" y="62" font-size="25" font-weight="700" fill="#33465A">Mini Mode</text>
+        <text class="mono" x="22" y="84" font-size="9.5" letter-spacing="1.8" fill="#64788A">LESS NOISE, MORE FOCUS</text>
+        <path d="M22 98h292" stroke="#D9C4A2" opacity=".8"/>
+        <rect class="bar" style="animation-delay:0.00s" x="22" y="110" width="7" height="34" rx="3.5" fill="#E0863F" opacity=".9"/><rect class="bar" style="animation-delay:0.12s" x="39" y="110" width="7" height="34" rx="3.5" fill="#B9CBD9" opacity=".9"/><rect class="bar" style="animation-delay:0.24s" x="56" y="110" width="7" height="34" rx="3.5" fill="#B9CBD9" opacity=".9"/><rect class="bar" style="animation-delay:0.36s" x="73" y="110" width="7" height="34" rx="3.5" fill="#E0863F" opacity=".9"/><rect class="bar" style="animation-delay:0.48s" x="90" y="110" width="7" height="34" rx="3.5" fill="#B9CBD9" opacity=".9"/><rect class="bar" style="animation-delay:0.60s" x="107" y="110" width="7" height="34" rx="3.5" fill="#B9CBD9" opacity=".9"/><rect class="bar" style="animation-delay:0.72s" x="124" y="110" width="7" height="34" rx="3.5" fill="#E0863F" opacity=".9"/><rect class="bar" style="animation-delay:0.84s" x="141" y="110" width="7" height="34" rx="3.5" fill="#B9CBD9" opacity=".9"/><rect class="bar" style="animation-delay:0.96s" x="158" y="110" width="7" height="34" rx="3.5" fill="#B9CBD9" opacity=".9"/><rect class="bar" style="animation-delay:1.08s" x="175" y="110" width="7" height="34" rx="3.5" fill="#E0863F" opacity=".9"/><rect class="bar" style="animation-delay:1.20s" x="192" y="110" width="7" height="34" rx="3.5" fill="#B9CBD9" opacity=".9"/><rect class="bar" style="animation-delay:1.32s" x="209" y="110" width="7" height="34" rx="3.5" fill="#B9CBD9" opacity=".9"/><rect class="bar" style="animation-delay:1.44s" x="226" y="110" width="7" height="34" rx="3.5" fill="#E0863F" opacity=".9"/><rect class="bar" style="animation-delay:1.56s" x="243" y="110" width="7" height="34" rx="3.5" fill="#B9CBD9" opacity=".9"/><rect class="bar" style="animation-delay:1.68s" x="260" y="110" width="7" height="34" rx="3.5" fill="#B9CBD9" opacity=".9"/><rect class="bar" style="animation-delay:1.80s" x="277" y="110" width="7" height="34" rx="3.5" fill="#E0863F" opacity=".9"/><rect class="bar" style="animation-delay:1.92s" x="294" y="110" width="7" height="34" rx="3.5" fill="#B9CBD9" opacity=".9"/>
+      </g>
+
+    <g transform="translate(170 396)"><g transform="scale(0.88)">
+  <ellipse cx="0" cy="1" rx="18" ry="3.2" fill="#A87B4E" opacity=".22"/>
+  <g stroke="#8C7F8E" stroke-width="2.6" stroke-linecap="round"><path d="M-7-8v7"/><path d="M-2.4-8v7"/><path d="M4-8v7"/><path d="M8.4-8v7"/></g>
+  <g fill="#FFF6E8">
+    <circle cx="-8" cy="-14" r="6.6"/><circle cx="0" cy="-17" r="7.6"/><circle cx="8" cy="-14.4" r="6.8"/>
+    <circle cx="-4" cy="-9.6" r="5.6"/><circle cx="4.4" cy="-9.4" r="5.4"/>
+  </g>
+  <g fill="#EDE0CB" opacity=".8"><circle cx="-6" cy="-10.6" r="2.6"/><circle cx="2.4" cy="-13" r="2.2"/><circle cx="7.6" cy="-16" r="1.8"/></g>
+  <g class="nod" style="animation-delay:0.3s;transform-origin:70% 58%">
+    <path d="M11.6-18.6c-4.2-1-7-3.4-7.4-6.4 3.4.4 6.4 2.2 8.4 4.8Z" fill="#9A8C9C"/>
+    <path d="M24.4-17.6c3-2.8 6.6-3.6 9.4-2-3.2 1.2-5.8 3.2-7.4 5.8Z" fill="#9A8C9C"/>
+    <path d="M11.2-19.6c1.4-3.6 4.6-5.6 8-5.6 3.8 0 7 2.4 8.2 6.4 1 3.4.2 7-2.2 9.4-2 2-4.6 3-7.2 2.8-2.8-.2-5.2-1.6-6.8-4-1.6-2.4-1.8-5.6 0-9Z" fill="#8C7F8E"/>
+    <path d="M12.8-9.6c1.8 1.8 4.2 2.8 6.6 2.6-1 1.6-3 2.2-5 1.6-1-.4-1.6-1.2-1.6-2.4Z" fill="#7A6E7C"/>
+    <g class="blink" style="animation-delay:1.4000000000000001s">
+      <ellipse cx="14.6" cy="-17.4" rx="1.2" ry="1.5" fill="#2F2A33"/>
+      <ellipse cx="20.6" cy="-16.8" rx="1.2" ry="1.5" fill="#2F2A33"/>
+      <circle cx="14.2" cy="-18" r=".42" fill="#FFFFFF" opacity=".85"/>
+      <circle cx="20.2" cy="-17.4" r=".42" fill="#FFFFFF" opacity=".85"/>
+    </g>
+    <g fill="#5E5460"><circle cx="24.2" cy="-13.4" r=".7"/><circle cx="26" cy="-11.6" r=".7"/></g>
+    <path d="M22.6-9q2 1.2 3.6-.4" stroke="#6F6474" stroke-width=".8" fill="none" stroke-linecap="round"/>
+  </g>
+</g></g>
+    <g transform="translate(1036 400)"><g transform="scale(0.84)">
+  <ellipse cx="-1" cy="1.2" rx="20" ry="3.2" fill="#A87B4E" opacity=".24"/>
+  <g class="tail" style="animation-delay:1.2s">
+    <path d="M7-6c11-1 18-7 21-16 6 9 5 21-3 28-7 6-16 7-23 3-3-2-4-5-3-8 2 2 5 2 8-7Z" fill="#E08A4C"/>
+    <path d="M28-22c4.4 5 5.6 12 3.4 18-1.4-5.6-4.6-9.8-9-11.8 2.4-1.6 4.2-3.8 5.6-6.2Z" fill="#FFF6E8"/>
+    <path d="M9-5c9-1.4 15.6-6.6 19-14.6" stroke="#D1813F" stroke-width=".9" fill="none" opacity=".45"/>
+  </g>
+  <path d="M-11.6 0c-2.6-13.4 1.4-23 8.8-25.6 7.6-2.6 14.2 4.4 15.2 14.2.4 4.2 0 8.2-1 11.4Z" fill="#E89A5C"/>
+  <path d="M-11.6 0c-2.6-13.4 1.4-23 8.8-25.6 2.6-.9 5 0 7 1.6-5.4 2.8-9 11-8.4 24Z" fill="#F0A96C" opacity=".55"/>
+  <path d="M2.4-2c4.8-2.8 7.6-7.8 8-13.8 1.4 5.6.4 11.2-2.2 15.8Z" fill="#D1813F" opacity=".26"/>
+  <g stroke="#E89A5C" stroke-width="4.2" stroke-linecap="round"><path d="M-7.6-10.5v8"/><path d="M-1.4-10.5v8"/></g>
+  <g fill="#FFF6E8"><ellipse cx="-7.6" cy="-1.4" rx="2.9" ry="1.9"/><ellipse cx="-1.4" cy="-1.4" rx="2.9" ry="1.9"/></g>
+  <g stroke="#E3B98C" stroke-width=".5" opacity=".7"><path d="M-7.6-2.6v1.5M-1.4-2.6v1.5"/></g>
+  <path d="M-9.6-3.4c-2.2-9.8.4-16.8 5-19 3.2 3.6 3.8 11.4 2.4 19Z" fill="#FFF6E8"/>
+  <g transform="translate(-4.5 -30)">
+    <g class="ear" style="transform-origin:28% 96%;animation-delay:1.2s">
+      <path d="M-8.6-5.6-12-18.6l10 8Z" fill="#E08A4C"/>
+      <path d="M-8.2-7.4-10.4-15l6.2 4.8Z" fill="#F2B8A8"/>
+    </g>
+    <g class="ear" style="transform-origin:72% 96%;animation-delay:2.8s">
+      <path d="M6.8-6.4 11-19 2-11.2Z" fill="#E08A4C"/>
+      <path d="M6.6-8 9.6-15.6 3.6-10.8Z" fill="#F2B8A8"/>
+    </g>
+    <path d="M9 0c0 4.4-2.4 8-6 9.4-1.9 2.6-4.6 4-7.8 4-1.9 0-3.6-.5-5.1-1.4-2.3.3-4.6.1-6.4-.6-1.7-.6-2.7-1.6-2.7-2.7 0-1 .8-1.9 2.2-2.6-.7-.6-1.1-1.3-1.1-2 0-1.5 1.8-2.7 4.6-3.3 1.6-.4 3.5-.6 5.4-.6-.5-1.1-.8-2.4-.8-3.7 0-5 3.9-9 8.7-9S9-5 9 0Z" fill="#E89A5C"/>
+    <path d="M-8.6-2.2C-9.2-7-5.8-11-1.6-11.8-4-8.6-5.2-5.2-5.4-1.8Z" fill="#F0A96C"/>
+    <path d="M-6.4 4.6c-2.4-.3-5-.2-7 .3-2.8.6-4.6 1.8-4.6 3.3 0 1.1 1 2.1 2.7 2.7 2.4.9 5.6 1.1 8.4.7 1.5-2.2 1.8-4.8.5-7Z" fill="#FFF6E8"/>
+    <path d="M-5 10.4c-1 2.2-3.2 3.4-6 3.4 2.2-.2 4.2-1.2 5.4-2.6Z" fill="#FFF6E8"/>
+    <ellipse cx="-16.4" cy="7.6" rx="2" ry="1.6" fill="#4A3A30" transform="rotate(-10 -16.4 7.6)"/>
+    <circle cx="-17" cy="6.9" r=".5" fill="#FFFFFF" opacity=".5"/>
+    <path d="M-15.2 9c-.5 1.3-1.6 2-2.8 1.9" stroke="#C98B33" stroke-width=".7" fill="none" opacity=".6" stroke-linecap="round"/>
+    <path d="M3.4-1.2c3-.2 5.2-1.8 6.2-4.2.4 4.2-2.2 7.4-6.2 7.8Z" fill="#F7C190" opacity=".6"/>
+    <g class="blink" style="animation-delay:3.4000000000000004s">
+      <ellipse cx="-4.6" cy="-2.6" rx="1.55" ry="1.95" fill="#3F3028"/>
+      <ellipse cx="3.4" cy="-3" rx="1.55" ry="1.95" fill="#3F3028"/>
+      <circle cx="-4.1" cy="-3.3" r=".55" fill="#FFFFFF" opacity=".85"/>
+      <circle cx="3.9" cy="-3.7" r=".55" fill="#FFFFFF" opacity=".85"/>
+    </g>
+    <g stroke="#D1813F" stroke-width=".75" stroke-linecap="round" opacity=".5" fill="none">
+      <path d="M-6.8-6.2q2.2-1.3 4.4-.3"/><path d="M1.4-6.6q2.2-1.1 4.4 0"/>
+    </g>
+    <g stroke="#A07A5C" stroke-width=".5" opacity=".4" stroke-linecap="round" fill="none">
+      <path d="M-14 5.4q-4-2.2-6.4-3.8"/><path d="M-14.4 8.2q-4.4-.4-7-.8"/><path d="M-13.4 10.2q-3.6 1.6-5.6 3.4"/>
+    </g>
+  </g>
+</g></g>
+    <g stroke="#C08D52" stroke-width="1.6" stroke-linecap="round" opacity=".45" fill="none"><path d="M268 404c4-12 10-16 14-18M286 406c4-12 10-16 14-14M922 404c4-12 10-16 14-18M940 406c4-12 10-16 14-14"/></g>
+
+    <text class="mono" x="56" y="48" font-size="11" letter-spacing="3.2" fill="#7D8FA0">03 / THE PI COLLECTION</text>
+    <text class="mono" x="1144" y="48" text-anchor="end" font-size="11" letter-spacing="2.2" fill="#64788A">3 PACKAGES · 10K+ DOWNLOADS</text>
+    <text class="serif" x="56" y="112" font-size="48" font-weight="700" letter-spacing="-1" fill="#33465A">Extensions for Pi</text>
+    <rect width="1200" height="420" filter="url(#paperP)" opacity=".05"/>
+  </g>
+</svg>
