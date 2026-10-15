@@ -1,13 +1,8 @@
 ![Eachann — Obsidian Orbit](assets/hero.gif)
 
-
-### goose-herdr-gpui
-
-**Sessions. SSH. Split terminals.**
-
-macOS Rust/GPUI 客户端，组织 Herdr 会话、SSH 与终端分栏。
-
-`Rust · GPUI · gpui-component · zed-terminal`
+<table>
+<tr>
+<td width="50%" valign="top">
 
 [![Goose Note](assets/notes.gif)](https://github.com/eachann1024/goose-notes)
 
@@ -19,7 +14,28 @@ macOS Rust/GPUI 客户端，组织 Herdr 会话、SSH 与终端分栏。
 
 `TypeScript · React · Electron · BlockNote`
 
+</td>
+<td width="50%" valign="top">
+
+![Goose Herdr](assets/herdr.gif)
+
+### goose-herdr-gpui
+
+**Sessions. SSH. Split terminals.**
+
+macOS Rust/GPUI 客户端，组织 Herdr 会话、SSH 与终端分栏。
+
+`Rust · GPUI · gpui-component · zed-terminal`
+
+</td>
+</tr>
+</table>
+
 ![The Pi collection — 3 packages / 5K+ downloads](assets/pi.gif)
+
+<table>
+<tr>
+<td width="33%" valign="top">
 
 ### [pi-jev-route](https://github.com/eachann1024/pi-jev-route)
 
@@ -33,6 +49,9 @@ macOS Rust/GPUI 客户端，组织 Herdr 会话、SSH 与终端分栏。
 pi install npm:@each1024/pi-jev-route
 ```
 
+</td>
+<td width="33%" valign="top">
+
 ### [pi-jev-reply](https://github.com/eachann1024/pi-jev-reply)
 
 **Less noise. More clarity.**
@@ -44,6 +63,9 @@ Jev 审阅与可选改写，让 Pi 回复更清楚。
 ```sh
 pi install npm:@each1024/pi-jev-reply
 ```
+
+</td>
+<td width="33%" valign="top">
 
 ### [pi-mini-mode](https://github.com/eachann1024/pi-mini-mode)
 
@@ -57,7 +79,15 @@ pi install npm:@each1024/pi-jev-reply
 pi install npm:@each1024/pi-mini-mode
 ```
 
+</td>
+</tr>
+</table>
+
 ## Tools, within reach.
+
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ### [goose-2fa](https://github.com/eachann1024/goose-2fa)
 
@@ -67,6 +97,9 @@ pi install npm:@each1024/pi-mini-mode
 
 `TypeScript · React · uTools · MCP`
 
+</td>
+<td width="50%" valign="top">
+
 ### goose-hub
 
 **One home for everyday tools.**
@@ -74,6 +107,11 @@ pi install npm:@each1024/pi-mini-mode
 macOS 统一应用启动器，开发中，代码仓库尚未公开。
 
 `TypeScript · React · Electron · Rust`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
 
 ### goose-mark
 
@@ -83,6 +121,9 @@ macOS 统一应用启动器，开发中，代码仓库尚未公开。
 
 `TypeScript · React · Vite · uTools`
 
+</td>
+<td valign="top">
+
 ### goose-monitor
 
 **Know what is running.**
@@ -90,6 +131,11 @@ macOS 统一应用启动器，开发中，代码仓库尚未公开。
 进程归组、端口与网速；uTools 版已冻结，Goose Hub 尚未公开。
 
 `TypeScript · Vite · uTools · MCP`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
 
 ### raycast-2fa
 
@@ -99,6 +145,9 @@ macOS 统一应用启动器，开发中，代码仓库尚未公开。
 
 `TypeScript · Raycast API · Swift Vision`
 
+</td>
+<td valign="top">
+
 ### raycast-mark
 
 **Bookmarks from the keyboard.**
@@ -107,6 +156,11 @@ macOS 统一应用启动器，开发中，代码仓库尚未公开。
 
 `TypeScript · React · Raycast API`
 
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 ### raycast-monitor
 
 **Find. Inspect. Quit.**
@@ -114,3 +168,8 @@ macOS 统一应用启动器，开发中，代码仓库尚未公开。
 按应用名、PID 或端口查找并结束进程。
 
 `TypeScript · React · Raycast API / Utils`
+
+</td>
+<td></td>
+</tr>
+</table>
