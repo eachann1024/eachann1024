@@ -114,16 +114,14 @@ uTools 插件，主框输入 `2fa github` 回车，验证码直接贴到上一�
 </td>
 <td width="50%" valign="top">
 
-### <img src="https://raw.githubusercontent.com/eachann1024/goose-mark/main/public/logo.png" width="28" height="28" align="absmiddle" alt=""> [goose-mark](https://github.com/eachann1024/goose-mark)
+### <img src="https://raw.githubusercontent.com/eachann1024/raycast-2fa/main/assets/icon.png" width="28" height="28" align="absmiddle" alt=""> [raycast-2fa](https://github.com/eachann1024/raycast-2fa)
 
-**Keep the web within reach.**
+**Codes at command speed.**
 
-![users](https://img.shields.io/badge/users-1.6K%2B-blue)
+Raycast 上的本地 TOTP / HOTP 管理器：粘贴 Base32 密钥，或用 Swift Vision 识别截图和图片里的二维码添加账户，回车复制或粘贴验证码。
+可导出为二维码或 otpauth 链接迁移到手机，支持 JSON 备份，并可与 uTools 版共用同一份数据文件。
 
-主框粘贴网址即可入库，AI 自动润色标题、简介并归组；URL 中写 `{query}` 的书签可当搜索引擎，Tab 填参打开。
-支持拼音搜索、`Ctrl+数字` 秒开前 10 个书签，图标本地缓存，并在本机探测死链。
-
-`TypeScript · React · Vite · uTools · AI SDK`
+`TypeScript · Raycast API · Swift Vision`
 
 </td>
 </tr>
@@ -144,32 +142,6 @@ uTools 插件，主框输入 `2fa github` 回车，验证码直接贴到上一�
 </td>
 <td valign="top">
 
-### <img src="https://raw.githubusercontent.com/eachann1024/raycast-2fa/main/assets/icon.png" width="28" height="28" align="absmiddle" alt=""> [raycast-2fa](https://github.com/eachann1024/raycast-2fa)
-
-**Codes at command speed.**
-
-Raycast 上的本地 TOTP / HOTP 管理器：粘贴 Base32 密钥，或用 Swift Vision 识别截图和图片里的二维码添加账户，回车复制或粘贴验证码。
-可导出为二维码或 otpauth 链接迁移到手机，支持 JSON 备份，并可与 uTools 版共用同一份数据文件。
-
-`TypeScript · Raycast API · Swift Vision`
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-### <img src="https://raw.githubusercontent.com/eachann1024/raycast-mark/main/assets/extension-icon.png" width="28" height="28" align="absmiddle" alt=""> [raycast-mark](https://github.com/eachann1024/raycast-mark)
-
-**Bookmarks from the keyboard.**
-
-Raycast 网格书签管理器，支持标题、网址、标签的拼音与首字母搜索，一个书签可放进多个二级分类，也能打开带参数的模板 URL。
-收藏、最近、回收站一应俱全；数据以事件记录保存，并发冲突可显式解决，支持带图标的便携数据导入导出。
-
-`TypeScript · React · Raycast API`
-
-</td>
-<td valign="top">
-
 ### <img src="https://raw.githubusercontent.com/eachann1024/raycast-monitor/main/assets/icon.png" width="28" height="28" align="absmiddle" alt=""> [raycast-monitor](https://github.com/eachann1024/raycast-monitor)
 
 **Find. Inspect. Quit.**
@@ -178,6 +150,22 @@ Raycast 网格书签管理器，支持标题、网址、标签的拼音与首字
 结束前复核进程身份，按从子到父的顺序发送信号防止重启；网速只在网络分类采样，另带 CPU 菜单栏。
 
 `TypeScript · React · Raycast API / Utils`
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### <img src="https://raw.githubusercontent.com/eachann1024/goose-mark/main/public/logo.png" width="28" height="28" align="absmiddle" alt=""> [goose-mark](https://github.com/eachann1024/goose-mark)
+
+**Keep the web within reach.**
+
+![users](https://img.shields.io/badge/users-1.6K%2B-blue)
+
+主框粘贴网址即可入库，AI 自动润色标题、简介并归组；URL 中写 `{query}` 的书签可当搜索引擎，Tab 填参打开。
+支持拼音搜索、`Ctrl+数字` 秒开前 10 个书签，图标本地缓存，并在本机探测死链。
+
+`TypeScript · React · Vite · uTools · AI SDK`
 
 </td>
 </tr>
