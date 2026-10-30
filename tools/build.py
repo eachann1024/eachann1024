@@ -107,11 +107,11 @@ def notes():
     {S.grass([(150,402,20),(170,404,16),(1058,400,20),(1080,402,16)])}
 
     <text class="mono" x="56" y="48" font-size="11" letter-spacing="3.2" fill="{P['sky']}">01 / A SPACE FOR THOUGHT</text>
-    <text class="serif" x="56" y="166" font-size="62" font-weight="700" letter-spacing="-1" fill="{P['ink']}">Goose Note</text>
+    <text class="serif" x="56" y="166" font-size="62" font-weight="700" letter-spacing="-1" fill="{P['ink']}">Thinkly</text>
     <path d="M58 190h92" stroke="{P['accentSoft']}" stroke-width="3" stroke-linecap="round"/>
     <text class="sans" x="58" y="228" font-size="19" font-weight="600" fill="{P['body']}">Leave room for the next idea.</text>
     <text class="mono" x="58" y="262" font-size="10.5" letter-spacing="2.4" fill="{P['muted']}">LOCAL MARKDOWN · QUICK CAPTURE · AI</text>"""
-    return svg(w, h, body, u, "Goose Note — local markdown, quick capture, AI")
+    return svg(w, h, body, u, "Thinkly — local markdown, quick capture, AI")
 
 
 # ---------------------------------------------------------------- herdr
