@@ -10,7 +10,7 @@
 
 **Local Markdown. Quick capture. Ask your notes.**
 
-在别的软件里按 Alt+N，置顶速记小窗先把念头写进自己的 Markdown 文件夹；记不清原话时按 Ctrl+Shift+K，向这些笔记提问并看到出处。
+在别的软件里按 Alt+N，置顶速记小窗先把念头写进自己的 Markdown 文件夹；记不清原话时按 Ctrl+Alt+K，向这些笔记提问并看到出处。
 
 官网：[note.cooool.top](https://note.cooool.top/)
 
