@@ -4,14 +4,15 @@
 <tr>
 <td width="50%" valign="top">
 
-[![Goose Note](assets/notes.svg)](https://github.com/eachann1024/goose-notes)
+[![Thinkly](assets/notes.svg)](https://github.com/eachann1024/thinkly)
 
-### <img src="https://raw.githubusercontent.com/eachann1024/goose-notes/main/public/logo.png" width="28" height="28" align="absmiddle" alt=""> [goose-notes](https://github.com/eachann1024/goose-notes)
+### <img src="https://raw.githubusercontent.com/eachann1024/thinkly/main/public/logo.png" width="28" height="28" align="absmiddle" alt=""> [Thinkly](https://github.com/eachann1024/thinkly)
 
-**Local Markdown. Quick capture. AI.**
+**Local Markdown. Quick capture. Ask your notes.**
 
-直接打开本地 Markdown 文件夹写作，独立速记小窗随时记下灵感；AI 可引用已有笔记提炼重点或改写指定段落，原文与对话并排对照。
-支持代码、公式、Mermaid 与表格，可导出 Markdown / HTML / PDF / Word / 图片，并有页面锁定与历史版本；提供 macOS、Windows、Linux 安装包。
+在别的软件里按 Alt+N，置顶速记小窗先把念头写进自己的 Markdown 文件夹；记不清原话时按 Ctrl+Shift+K，向这些笔记提问并看到出处。
+
+官网：[note.cooool.top](https://note.cooool.top/)
 
 `TypeScript · React · Electron · BlockNote`
 
