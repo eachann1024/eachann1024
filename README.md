@@ -1,4 +1,4 @@
-![Eachann — Obsidian Orbit](assets/hero.svg)
+![Eachann](assets/hero.svg)
 
 <table>
 <tr>
@@ -34,7 +34,7 @@ Goose Herdr 的 macOS 原生客户端，用 Rust + GPUI 管理 Herdr 会话、SS
 </tr>
 </table>
 
-![The Pi collection — 3 packages / 10K+ downloads](assets/pi.svg)
+![Pi — Jev Route · Jev Reply · Mini Mode](assets/pi.svg)
 
 <table>
 <tr>
