@@ -211,6 +211,19 @@ def pi():
     return svg(w, h, body, u, "The Pi collection — Mini Mode and Final Model")
 
 
+import re
+
+_SMALL = 14
+
+
+def _strip_small(svg):
+    """去掉四周小字：字号小于 _SMALL 的 text 及小字号 g 组。"""
+    small = lambda m: float(m.group(1)) < _SMALL
+    svg = re.sub(r'\s*<g\b[^>]*font-size="([\d.]+)"[^>]*>.*?</g>', lambda m: "" if small(m) and "<text" in m.group(0) and "<g" not in m.group(0).lstrip()[2:] else m.group(0), svg, flags=re.S)
+    svg = re.sub(r'\s*<text\b[^>]*font-size="([\d.]+)"[^>]*>.*?</text>', lambda m: "" if small(m) else m.group(0), svg, flags=re.S)
+    return svg
+
+
 TARGETS = {"hero": hero, "notes": notes, "herdr": herdr, "pi": pi}
 
 
@@ -218,7 +231,7 @@ def main():
     ASSETS.mkdir(exist_ok=True)
     for name, fn in TARGETS.items():
         out = ASSETS / f"{name}.svg"
-        out.write_text(fn(), encoding="utf-8")
+        out.write_text(_strip_small(fn()), encoding="utf-8")
         print(f"{out.relative_to(ROOT)}  {out.stat().st_size / 1024:.1f}KB")
     if "--png" in sys.argv:
         for name in TARGETS:
