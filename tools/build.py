@@ -47,20 +47,13 @@ def hero():
 
     {S.grass([(118,598,24),(140,600,20),(1046,596,24),(1068,598,20),(330,604,24)])}
 
-    <text class="mono" x="56" y="58" font-size="11.5" letter-spacing="3.4" fill="{P['sky']}">E / 1024</text>
-    <text class="mono" x="1144" y="58" font-size="11.5" letter-spacing="3.4" text-anchor="end" fill="{P['sky']}">INDEPENDENT SOFTWARE</text>
 
     <text class="serif" x="56" y="256" font-size="108" font-weight="700" letter-spacing="-1.5" fill="{P['ink']}">Eachann</text>
     <path d="M60 288h132" stroke="{P['accentSoft']}" stroke-width="3" stroke-linecap="round"/>
     <text class="sans" x="58" y="336" font-size="23" font-weight="600" fill="{P['body']}">Tools for a more considered workflow.</text>
     <text class="cjk" x="58" y="380" font-size="16" fill="{P['quote']}">“只有用心才能看得清。”</text>
-    <text class="mono" x="58" y="424" font-size="11" letter-spacing="2.4" fill="{P['muted']}">DESKTOP APPS · PI EXTENSIONS · LOCAL FIRST</text>
+    <text class="mono" x="58" y="424" font-size="14" letter-spacing="2.4" fill="{P['muted']}">DESKTOP APPS · PI EXTENSIONS · LOCAL FIRST</text>"""
 
-    <g class="mono" font-size="12" letter-spacing="2.6" fill="{P['sand']}">
-      <text x="56" y="588"><tspan fill="{P['accent']}" font-weight="700">02</tspan> FLAGSHIP</text>
-      <text x="600" y="588" text-anchor="middle"><tspan fill="{P['accent']}" font-weight="700">02</tspan> PI PACKAGES</text>
-      <text x="1144" y="588" text-anchor="end"><tspan fill="{P['accent']}" font-weight="700">12</tspan> PROJECTS</text>
-    </g>"""
     return svg(w, h, body, u, "Eachann — tools for a more considered workflow")
 
 
@@ -167,9 +160,9 @@ def pi():
     def card(x, no, name, sub, art, width=552):
         return f"""<g transform="translate({x} 152)" filter="url(#drop{u})">
         <rect width="{width}" height="156" rx="14" fill="url(#card{u})" stroke="{P['line']}"/>
-        <text class="mono" x="22" y="30" font-size="9.5" letter-spacing="2.4" fill="{P['accent']}">{no}</text>
+        <text class="mono" x="22" y="30" font-size="14" letter-spacing="2.4" fill="{P['accent']}">{no}</text>
         <text class="serif" x="22" y="62" font-size="25" font-weight="700" fill="{P['ink']}">{name}</text>
-        <text class="mono" x="22" y="84" font-size="9.5" letter-spacing="1.8" fill="{P['muted']}">{sub}</text>
+        <text class="mono" x="22" y="86" font-size="14" letter-spacing="1.8" fill="{P['muted']}">{sub}</text>
         <path d="M22 98h{width - 44}" stroke="{P['line']}" opacity=".8"/>
         {art}
       </g>"""
@@ -182,11 +175,11 @@ def pi():
     # Work model → final model rewrite: two nodes, dashed path, sparkle at end
     final = f"""<g transform="translate(22 108)">
           <rect x="0" y="0" width="148" height="38" rx="10" fill="#FFFDF7" stroke="{P['line']}"/>
-          <text class="mono" x="74" y="24" text-anchor="middle" font-size="9" letter-spacing="1.6" fill="{P['muted']}">WORK MODEL</text>
+          <text class="mono" x="74" y="24.5" text-anchor="middle" font-size="14" letter-spacing="1.6" fill="{P['muted']}">WORK MODEL</text>
           <path class="dash" d="M156 19h168" stroke="{P['accentSoft']}" opacity=".9" fill="none"/>
           <g class="ride"><circle cx="174" cy="19" r="5.5" fill="{P['accentSoft']}"/><circle cx="174" cy="19" r="2.2" fill="#FFF6E8"/></g>
           <rect x="332" y="0" width="176" height="38" rx="10" fill="#FFFDF7" stroke="{P['accentSoft']}"/>
-          <text class="mono" x="420" y="24" text-anchor="middle" font-size="9" letter-spacing="1.6" fill="{P['accent']}">FINAL MODEL</text>
+          <text class="mono" x="420" y="24.5" text-anchor="middle" font-size="14" letter-spacing="1.6" fill="{P['accent']}">FINAL MODEL</text>
           <g class="pulse" transform="translate(520 8)">
             <path d="M8 0l1.6 4.6H14l-3.6 2.8 1.4 4.6L8 9.4 3.6 12l1.4-4.6L1.4 4.6h4.4Z" fill="{P['accentSoft']}"/>
           </g>
@@ -205,23 +198,8 @@ def pi():
     <g transform="translate(1036 400)">{F.fox(0.84, delay=1.2)}</g>
     {S.grass([(268,404,18),(286,406,14),(922,404,18),(940,406,14)])}
 
-    <text class="mono" x="56" y="48" font-size="11" letter-spacing="3.2" fill="{P['sky']}">02 / THE PI COLLECTION</text>
-    <text class="mono" x="1144" y="48" text-anchor="end" font-size="11" letter-spacing="2.2" fill="{P['muted']}">2 PACKAGES · 7K+ DOWNLOADS</text>
     <text class="serif" x="56" y="112" font-size="48" font-weight="700" letter-spacing="-1" fill="{P['ink']}">Extensions for Pi</text>"""
     return svg(w, h, body, u, "The Pi collection — Mini Mode and Final Model")
-
-
-import re
-
-_SMALL = 14
-
-
-def _strip_small(svg):
-    """去掉四周小字：字号小于 _SMALL 的 text 及小字号 g 组。"""
-    small = lambda m: float(m.group(1)) < _SMALL
-    svg = re.sub(r'\s*<g\b[^>]*font-size="([\d.]+)"[^>]*>.*?</g>', lambda m: "" if small(m) and "<text" in m.group(0) and "<g" not in m.group(0).lstrip()[2:] else m.group(0), svg, flags=re.S)
-    svg = re.sub(r'\s*<text\b[^>]*font-size="([\d.]+)"[^>]*>.*?</text>', lambda m: "" if small(m) else m.group(0), svg, flags=re.S)
-    return svg
 
 
 TARGETS = {"hero": hero, "notes": notes, "herdr": herdr, "pi": pi}
@@ -231,7 +209,7 @@ def main():
     ASSETS.mkdir(exist_ok=True)
     for name, fn in TARGETS.items():
         out = ASSETS / f"{name}.svg"
-        out.write_text(_strip_small(fn()), encoding="utf-8")
+        out.write_text(fn(), encoding="utf-8")
         print(f"{out.relative_to(ROOT)}  {out.stat().st_size / 1024:.1f}KB")
     if "--png" in sys.argv:
         for name in TARGETS:
