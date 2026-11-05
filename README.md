@@ -34,61 +34,43 @@ Goose Herdr 的 macOS 原生客户端，用 Rust + GPUI 管理 Herdr 会话、SS
 </tr>
 </table>
 
-![Pi — Jev Route · Jev Reply · Mini Mode](assets/pi.svg)
+![Pi — Mini Mode · Final Model](assets/pi.svg)
 
 <table>
 <tr>
-<td width="33%" valign="top">
-
-### [pi-jev-route](https://github.com/eachann1024/pi-jev-route)
-
-**The right model for the task.**
-
-![downloads](https://img.shields.io/badge/downloads-2.1K%2B-blue)
-
-子代理派发时由 Jev 从你启用的模型中自动选型，主会话的模型与思考强度保持不变。
-附带本地设置与审计控制台：配置回退策略和置信度门槛，监督长时间任务，并回看每次派发的决策原因与时间线。
-
-`TypeScript · Pi Extension API · Pi AI`
-
-```sh
-pi install npm:@each1024/pi-jev-route
-```
-
-</td>
-<td width="33%" valign="top">
-
-### [pi-jev-reply](https://github.com/eachann1024/pi-jev-reply)
-
-**Less noise. More clarity.**
-
-![downloads](https://img.shields.io/badge/downloads-3K%2B-blue)
-
-为 Pi 回复做最后一道润色：由 Jev 判断是否需要修改，再用当前或所选模型改得更直白，必要时补一张小表格或流程图。
-结构校验会拒绝丢失引用或改动数字的编辑，改写失败时保留原文；中英双语设置页。
-
-`TypeScript · Pi Extension API · Pi TUI`
-
-```sh
-pi install npm:@each1024/pi-jev-reply
-```
-
-</td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### [pi-mini-mode](https://github.com/eachann1024/pi-mini-mode)
 
 **Less noise. More focus.**
 
-![downloads](https://img.shields.io/badge/downloads-5K%2B-blue)
+![downloads](https://img.shields.io/badge/downloads-6.8K%2B-blue)
 
-输入框上方预览图片，`/` 直接插入技能；极简输出把思考、工具调用汇成可折叠的过程树，子代理详情点开即看。
-紧凑页脚一行显示模型、令牌、缓存命中率、费用估算与上下文用量，自带 cc-light / cc-dark 主题。
+输入框上方可预览图片，支持斜杠命令直接插入技能；输出默认将思考与工具调用折叠为过程树，支持展开子代理详情。
+紧凑页脚单行展示模型、Token、缓存命中率、费用与上下文占用，内置 cc-light / cc-dark 主题。
 
 `TypeScript · Pi TUI · grok-mermaid`
 
 ```sh
 pi install npm:@each1024/pi-mini-mode
+```
+
+</td>
+<td width="50%" valign="top">
+
+### [pi-final-model](https://github.com/eachann1024/pi-final-model)
+
+**Work runs. Final finishes.**
+
+![downloads](https://img.shields.io/badge/downloads-700%2B-blue)
+
+由主会话模型正常调用工具执行任务，再自动交由指定的总结模型提炼最终答复，保留原思考强度与上下文。
+提炼失败时回退为原输出，成功后在答复首尾显示提示标记。
+
+`TypeScript · Pi Extension API · Pi TUI`
+
+```sh
+pi install npm:@each1024/pi-final-model
 ```
 
 </td>

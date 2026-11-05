@@ -58,7 +58,7 @@ def hero():
 
     <g class="mono" font-size="12" letter-spacing="2.6" fill="{P['sand']}">
       <text x="56" y="588"><tspan fill="{P['accent']}" font-weight="700">02</tspan> FLAGSHIP</text>
-      <text x="600" y="588" text-anchor="middle"><tspan fill="{P['accent']}" font-weight="700">03</tspan> PI PACKAGES</text>
+      <text x="600" y="588" text-anchor="middle"><tspan fill="{P['accent']}" font-weight="700">02</tspan> PI PACKAGES</text>
       <text x="1144" y="588" text-anchor="end"><tspan fill="{P['accent']}" font-weight="700">12</tspan> PROJECTS</text>
     </g>"""
     return svg(w, h, body, u, "Eachann — tools for a more considered workflow")
@@ -164,32 +164,33 @@ def herdr():
 def pi():
     w, h, u = 1200, 420, "P"
 
-    def card(x, no, name, sub, art):
+    def card(x, no, name, sub, art, width=552):
         return f"""<g transform="translate({x} 152)" filter="url(#drop{u})">
-        <rect width="336" height="156" rx="14" fill="url(#card{u})" stroke="{P['line']}"/>
+        <rect width="{width}" height="156" rx="14" fill="url(#card{u})" stroke="{P['line']}"/>
         <text class="mono" x="22" y="30" font-size="9.5" letter-spacing="2.4" fill="{P['accent']}">{no}</text>
         <text class="serif" x="22" y="62" font-size="25" font-weight="700" fill="{P['ink']}">{name}</text>
         <text class="mono" x="22" y="84" font-size="9.5" letter-spacing="1.8" fill="{P['muted']}">{sub}</text>
-        <path d="M22 98h292" stroke="{P['line']}" opacity=".8"/>
+        <path d="M22 98h{width - 44}" stroke="{P['line']}" opacity=".8"/>
         {art}
       </g>"""
 
-    route = f"""<g transform="translate(22 110)">
-          <path d="M0 14h292" stroke="{P['line']}"/>
-          <path class="dash" d="M0 14h292" stroke="{P['accentSoft']}" opacity=".8" fill="none"/>
-          <g class="ride"><circle cx="18" cy="14" r="6" fill="{P['accentSoft']}"/><circle cx="18" cy="14" r="2.4" fill="#FFF6E8"/></g>
-          <g fill="#FFFDF7" stroke="{P['line']}"><circle cx="18" cy="14" r="4"/><circle cx="155" cy="14" r="4"/><circle cx="292" cy="14" r="4"/></g>
-        </g>"""
-    reply = "".join(
-        f'<rect class="typing" style="transform-box:fill-box;transform-origin:left center;animation-delay:{d}s" '
-        f'x="22" y="{y}" width="{wd}" height="6" rx="3" fill="{c}"/>'
-        for y, wd, d, c in ((112, 250, 0.1, "#B9CBD9"), (126, 196, 0.5, "#B9CBD9"), (140, 142, 0.9, P["accentSoft"]))
-    )
     bars = "".join(
-        f'<rect class="bar" style="animation-delay:{i * 0.12:.2f}s" x="{22 + i * 17}" y="110" width="7" height="34" rx="3.5" '
+        f'<rect class="bar" style="animation-delay:{i * 0.12:.2f}s" x="{22 + i * 18}" y="110" width="8" height="34" rx="3.5" '
         f'fill="{P["accentSoft"] if i % 3 == 0 else "#B9CBD9"}" opacity=".9"/>'
-        for i in range(17)
+        for i in range(28)
     )
+    # Work model → final model rewrite: two nodes, dashed path, sparkle at end
+    final = f"""<g transform="translate(22 108)">
+          <rect x="0" y="0" width="148" height="38" rx="10" fill="#FFFDF7" stroke="{P['line']}"/>
+          <text class="mono" x="74" y="24" text-anchor="middle" font-size="9" letter-spacing="1.6" fill="{P['muted']}">WORK MODEL</text>
+          <path class="dash" d="M156 19h168" stroke="{P['accentSoft']}" opacity=".9" fill="none"/>
+          <g class="ride"><circle cx="174" cy="19" r="5.5" fill="{P['accentSoft']}"/><circle cx="174" cy="19" r="2.2" fill="#FFF6E8"/></g>
+          <rect x="332" y="0" width="176" height="38" rx="10" fill="#FFFDF7" stroke="{P['accentSoft']}"/>
+          <text class="mono" x="420" y="24" text-anchor="middle" font-size="9" letter-spacing="1.6" fill="{P['accent']}">FINAL MODEL</text>
+          <g class="pulse" transform="translate(520 8)">
+            <path d="M8 0l1.6 4.6H14l-3.6 2.8 1.4 4.6L8 9.4 3.6 12l1.4-4.6L1.4 4.6h4.4Z" fill="{P['accentSoft']}"/>
+          </g>
+        </g>"""
 
     body = f"""    {S.sky(w, h, sun=(602, 78, 46), uid=u)}
     {S.stars([(140,64,1.8),(362,48,1.6),(878,52,1.7),(760,96,1.5)],
@@ -197,18 +198,17 @@ def pi():
     {S.clouds(74, 128)}
     {S.hills(h, 300, 336, 368, uid=u)}
 
-    {card(24, "01", "Jev Route", "THE RIGHT MODEL FOR THE TASK", route)}
-    {card(432, "02", "Jev Reply", "LESS NOISE, MORE CLARITY", reply)}
-    {card(840, "03", "Mini Mode", "LESS NOISE, MORE FOCUS", bars)}
+    {card(24, "01", "Mini Mode", "LESS NOISE, MORE FOCUS", bars)}
+    {card(624, "02", "Final Model", "WORK RUNS. FINAL FINISHES.", final)}
 
     <g transform="translate(170 396)">{F.sheep(0.88, delay=0.3)}</g>
     <g transform="translate(1036 400)">{F.fox(0.84, delay=1.2)}</g>
     {S.grass([(268,404,18),(286,406,14),(922,404,18),(940,406,14)])}
 
-    <text class="mono" x="56" y="48" font-size="11" letter-spacing="3.2" fill="{P['sky']}">03 / THE PI COLLECTION</text>
-    <text class="mono" x="1144" y="48" text-anchor="end" font-size="11" letter-spacing="2.2" fill="{P['muted']}">3 PACKAGES · 10K+ DOWNLOADS</text>
+    <text class="mono" x="56" y="48" font-size="11" letter-spacing="3.2" fill="{P['sky']}">02 / THE PI COLLECTION</text>
+    <text class="mono" x="1144" y="48" text-anchor="end" font-size="11" letter-spacing="2.2" fill="{P['muted']}">2 PACKAGES · 7K+ DOWNLOADS</text>
     <text class="serif" x="56" y="112" font-size="48" font-weight="700" letter-spacing="-1" fill="{P['ink']}">Extensions for Pi</text>"""
-    return svg(w, h, body, u, "The Pi collection — 3 packages, 10K+ downloads")
+    return svg(w, h, body, u, "The Pi collection — Mini Mode and Final Model")
 
 
 TARGETS = {"hero": hero, "notes": notes, "herdr": herdr, "pi": pi}
