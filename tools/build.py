@@ -230,7 +230,7 @@ def thinkly(P: dict, tag: str) -> str:
     <text class="sans" x="48" y="166" font-size="18" fill="{P['body']}">Alt+N 置顶速记进本地目录，Ctrl+Alt+K 溯源问答。</text>
 
     <line x1="48" y1="196" x2="624" y2="196" stroke="{P['border']}" stroke-width="1.2"/>
-    <text class="mono" x="48" y="228" font-size="15.5" font-weight="500" fill="{P['irisInk']}">note.cooool.top</text>
+    <text class="mono" x="48" y="228" font-size="15.5" font-weight="500" fill="{P['irisInk']}">eachann1024/thinkly</text>
     <text class="mono" x="624" y="228" text-anchor="end" font-size="15" fill="{P['muted']}">Electron · React · BlockNote</text>
 
     <line x1="664" y1="36" x2="664" y2="232" stroke="{P['border']}" stroke-width="1.2"/>
