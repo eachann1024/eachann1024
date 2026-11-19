@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Eachann — 安静、本地、顺手。" preserveAspectRatio="xMidYMid meet">
   <defs>
-    <clipPath id="frH"><rect x="0" y="0" width="1200" height="440" rx="18"/></clipPath>
+    <clipPath id="frHL"><rect x="0" y="0" width="1200" height="440" rx="18"/></clipPath>
   </defs>
   <style>
 
@@ -19,7 +19,7 @@
 
   @media(prefers-reduced-motion:reduce){*{animation:none!important}}
   </style>
-  <g clip-path="url(#frH)">
+  <g clip-path="url(#frHL)">
     <rect width="1200" height="440" fill="#f3f1eb"/>
     <line class="ma-horizon" x1="536" y1="268" x2="1126" y2="268" stroke="#c4bdb0" stroke-width="1.5"/>
 
@@ -32,9 +32,9 @@
 
     <g class="ma-veil">
       <rect x="878" y="76" width="178" height="150" rx="4" fill="#faf9f5" fill-opacity=".93" stroke="#dcd6c8" stroke-width="1.5"/>
-      <line x1="904" y1="120" x2="1026" y2="120" stroke="#c5beb0" stroke-width="1.5"/>
-      <line x1="904" y1="142" x2="996" y2="142" stroke="#d9d3c7" stroke-width="1.5"/>
-      <line x1="904" y1="164" x2="1012" y2="164" stroke="#d9d3c7" stroke-width="1.5"/>
+      <line x1="904" y1="120" x2="1026" y2="120" stroke="#b4ada0" stroke-width="1.5"/>
+      <line x1="904" y1="142" x2="996" y2="142" stroke="#cfc8ba" stroke-width="1.5"/>
+      <line x1="904" y1="164" x2="1012" y2="164" stroke="#cfc8ba" stroke-width="1.5"/>
     </g>
 
     <circle class="ma-iris" cx="968" cy="220" r="24" fill="#3b69c8"/>

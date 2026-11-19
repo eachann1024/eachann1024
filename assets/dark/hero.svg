@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Eachann — 安静、本地、顺手。" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <clipPath id="frHD"><rect x="0" y="0" width="1200" height="440" rx="18"/></clipPath>
+  </defs>
+  <style>
+
+  .serif{font-family:"Iowan Old Style","Palatino Linotype",Georgia,"Songti SC","STSong","Noto Serif SC",serif}
+  .sans{font-family:"PingFang SC","Hiragino Sans GB",-apple-system,BlinkMacSystemFont,"Helvetica Neue","Microsoft YaHei",sans-serif}
+  .mono{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,Consolas,monospace}
+
+  .ma-slab{animation:ma-slab 10s cubic-bezier(.37,0,.63,1) infinite}
+  .ma-veil{animation:ma-veil 10s cubic-bezier(.37,0,.63,1) infinite}
+  .ma-iris{transform-origin:968px 220px;animation:ma-iris 10s cubic-bezier(.37,0,.63,1) infinite}
+  .ma-horizon{transform-origin:536px 268px;animation:ma-horizon 10s cubic-bezier(.37,0,.63,1) infinite}
+  @keyframes ma-slab{0%,100%{transform:translate(0,0)}50%{transform:translate(-18px,-8px)}}
+  @keyframes ma-veil{0%,100%{transform:translate(0,0)}50%{transform:translate(14px,10px)}}
+  @keyframes ma-iris{0%,100%{transform:scale(1) translate(0,0);opacity:.92}50%{transform:scale(1.12) translate(-8px,-6px);opacity:1}}
+  @keyframes ma-horizon{0%,100%{transform:scaleX(.8);opacity:.78}50%{transform:scaleX(1);opacity:1}}
+
+  @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <g clip-path="url(#frHD)">
+    <rect width="1200" height="440" fill="#141820"/>
+    <line class="ma-horizon" x1="536" y1="268" x2="1126" y2="268" stroke="#384256" stroke-width="1.5"/>
+
+    <g class="ma-slab">
+      <rect x="742" y="106" width="176" height="198" rx="4" fill="#0b0e14" stroke="#333e52" stroke-width="1.2"/>
+      <rect x="770" y="142" width="76" height="6" rx="3" fill="#eeece6" opacity=".88"/>
+      <rect x="770" y="162" width="114" height="5" rx="2.5" fill="#7b869c"/>
+      <rect x="770" y="178" width="90" height="5" rx="2.5" fill="#556075"/>
+    </g>
+
+    <g class="ma-veil">
+      <rect x="878" y="76" width="178" height="150" rx="4" fill="#1b202b" fill-opacity=".93" stroke="#343e52" stroke-width="1.5"/>
+      <line x1="904" y1="120" x2="1026" y2="120" stroke="#525d73" stroke-width="1.5"/>
+      <line x1="904" y1="142" x2="996" y2="142" stroke="#394356" stroke-width="1.5"/>
+      <line x1="904" y1="164" x2="1012" y2="164" stroke="#394356" stroke-width="1.5"/>
+    </g>
+
+    <circle class="ma-iris" cx="968" cy="220" r="24" fill="#6d99f2"/>
+    <rect x="714" y="320" width="236" height="5" rx="2.5" fill="#91836d"/>
+
+    <text class="serif" x="68" y="298" font-size="94" font-weight="700" letter-spacing="-2" fill="#eeece6">Eachann</text>
+    <text class="sans" x="72" y="346" font-size="22" font-weight="500" letter-spacing="1.2" fill="#8a877f">安静、本地、顺手。</text>
+  </g>
+  <rect x="0.75" y="0.75" width="1198.5" height="438.5" rx="17.25" fill="none" stroke="#2a3242" stroke-width="1.5"/>
+</svg>

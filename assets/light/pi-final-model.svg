@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="176" viewBox="0 0 1200 176" role="img" aria-label="pi-final-model — Pi 最终模型提炼扩展" preserveAspectRatio="xMidYMid meet">
   <defs>
-    <clipPath id="frPF"><rect x="0" y="0" width="1200" height="176" rx="18"/></clipPath>
+    <clipPath id="frPFL"><rect x="0" y="0" width="1200" height="176" rx="18"/></clipPath>
   </defs>
   <style>
 
@@ -15,27 +15,24 @@
 
   @media(prefers-reduced-motion:reduce){*{animation:none!important}}
   </style>
-  <g clip-path="url(#frPF)">
+  <g clip-path="url(#frPFL)">
     <rect width="1200" height="176" fill="#f3f1eb"/>
-    <!-- Left Typography -->
     <text class="serif" x="46" y="56" font-size="31" font-weight="700" letter-spacing="-0.4" fill="#191b20">pi-final-model</text>
-    <rect x="526" y="31" width="156" height="30" rx="15" fill="#e3eaf8"/>
-    <text class="mono" x="604" y="51" text-anchor="middle" font-size="13.5" font-weight="500" fill="#244899">700+ downloads</text>
+    <rect x="516" y="31" width="166" height="30" rx="15" fill="#e3eaf8"/>
+    <text class="mono" x="599" y="51" text-anchor="middle" font-size="13.5" font-weight="500" fill="#244899">1.1K+ downloads</text>
 
     <text class="sans" x="46" y="96" font-size="18" fill="#4a463f">工作模型跑完工具调用，由指定总结模型提炼最终答复。</text>
 
-    <rect x="46" y="116" width="406" height="34" rx="8" fill="#eae6dc"/>
-    <text class="mono" x="62" y="138" font-size="14.5" fill="#191b20">pi install npm:@eachann1024/pi-final-model</text>
+    <rect x="46" y="116" width="382" height="34" rx="8" fill="#eae6dc"/>
+    <text class="mono" x="62" y="138" font-size="14.5" fill="#191b20">pi install npm:@each1024/pi-final-model</text>
 
-    <!-- Vertical Divider -->
     <line x1="712" y1="28" x2="712" y2="148" stroke="#dcd6c8" stroke-width="1.2"/>
     <g transform="translate(1152 38) scale(1.0)" fill="none" stroke="#676258" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M-5 5 L5 -5 M-2 -5 H5 V2"/></g>
 
-    <!-- Right Animated Work -> Final Distillation -->
     <rect x="756" y="76" width="92" height="40" rx="7" fill="#faf9f5" stroke="#dcd6c8" stroke-width="1.5"/>
     <text class="mono" x="802" y="101" text-anchor="middle" font-size="13.5" fill="#676258">WORK</text>
 
-    <line x1="856" y1="96" x2="1004" y2="96" stroke="#cfc8ba" stroke-width="1.8"/>
+    <line x1="856" y1="96" x2="1004" y2="96" stroke="#c4bdb0" stroke-width="1.8"/>
     <circle class="pf-glide" cx="858" cy="96" r="6.5" fill="#3b69c8"/>
 
     <rect x="1012" y="76" width="102" height="40" rx="7" fill="#191b20"/>

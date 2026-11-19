@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="176" viewBox="0 0 1200 176" role="img" aria-label="pi-mini-mode — Pi 紧凑模式扩展" preserveAspectRatio="xMidYMid meet">
   <defs>
-    <clipPath id="frPM"><rect x="0" y="0" width="1200" height="176" rx="18"/></clipPath>
+    <clipPath id="frPML"><rect x="0" y="0" width="1200" height="176" rx="18"/></clipPath>
   </defs>
   <style>
 
@@ -17,25 +17,22 @@
 
   @media(prefers-reduced-motion:reduce){*{animation:none!important}}
   </style>
-  <g clip-path="url(#frPM)">
+  <g clip-path="url(#frPML)">
     <rect width="1200" height="176" fill="#f3f1eb"/>
-    <!-- Left Typography -->
     <text class="serif" x="46" y="56" font-size="31" font-weight="700" letter-spacing="-0.4" fill="#191b20">pi-mini-mode</text>
     <rect x="516" y="31" width="166" height="30" rx="15" fill="#e3eaf8"/>
-    <text class="mono" x="599" y="51" text-anchor="middle" font-size="13.5" font-weight="500" fill="#244899">6.8K+ downloads</text>
+    <text class="mono" x="599" y="51" text-anchor="middle" font-size="13.5" font-weight="500" fill="#244899">7.7K+ downloads</text>
 
     <text class="sans" x="46" y="96" font-size="18" fill="#4a463f">思考与工具调用折叠为过程树，紧凑单行页脚与图片预览。</text>
 
-    <rect x="46" y="116" width="388" height="34" rx="8" fill="#eae6dc"/>
-    <text class="mono" x="62" y="138" font-size="14.5" fill="#191b20">pi install npm:@eachann1024/pi-mini-mode</text>
+    <rect x="46" y="116" width="366" height="34" rx="8" fill="#eae6dc"/>
+    <text class="mono" x="62" y="138" font-size="14.5" fill="#191b20">pi install npm:@each1024/pi-mini-mode</text>
 
-    <!-- Vertical Divider -->
     <line x1="712" y1="28" x2="712" y2="148" stroke="#dcd6c8" stroke-width="1.2"/>
     <g transform="translate(1152 38) scale(1.0)" fill="none" stroke="#676258" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M-5 5 L5 -5 M-2 -5 H5 V2"/></g>
 
-    <!-- Right Animated Compression Visual -->
     <rect class="pm-n1" x="756" y="50" width="320" height="6" rx="3" fill="#b4ada0"/>
-    <rect class="pm-n2" x="756" y="66" width="256" height="6" rx="3" fill="#c3bcb0"/>
+    <rect class="pm-n2" x="756" y="66" width="256" height="6" rx="3" fill="#b4ada0" opacity=".8"/>
     <rect class="pm-n3" x="756" y="82" width="290" height="6" rx="3" fill="#cfc8ba"/>
 
     <g class="pm-bar">

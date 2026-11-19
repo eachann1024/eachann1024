@@ -1,13 +1,13 @@
-![Eachann](assets/hero.svg)
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/hero.svg"><source media="(prefers-color-scheme: light)" srcset="assets/light/hero.svg"><img alt="Eachann" src="assets/light/hero.svg"></picture>
 
-[![Block](assets/block.svg)](https://github.com/eachann1024/block)
+<a href="https://github.com/eachann1024/block"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/block.svg"><source media="(prefers-color-scheme: light)" srcset="assets/light/block.svg"><img alt="Block" src="assets/light/block.svg"></picture></a>
 
-[![Thinkly](assets/thinkly.svg)](https://github.com/eachann1024/thinkly)
+<a href="https://github.com/eachann1024/thinkly"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/thinkly.svg"><source media="(prefers-color-scheme: light)" srcset="assets/light/thinkly.svg"><img alt="Thinkly" src="assets/light/thinkly.svg"></picture></a>
 
-[![pi-mini-mode](assets/pi-mini-mode.svg)](https://github.com/eachann1024/pi-mini-mode)
-[![pi-final-model](assets/pi-final-model.svg)](https://github.com/eachann1024/pi-final-model)
+<a href="https://github.com/eachann1024/pi-mini-mode"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/pi-mini-mode.svg"><source media="(prefers-color-scheme: light)" srcset="assets/light/pi-mini-mode.svg"><img alt="pi-mini-mode" src="assets/light/pi-mini-mode.svg"></picture></a>
+<a href="https://github.com/eachann1024/pi-final-model"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/pi-final-model.svg"><source media="(prefers-color-scheme: light)" srcset="assets/light/pi-final-model.svg"><img alt="pi-final-model" src="assets/light/pi-final-model.svg"></picture></a>
 
-[![goose-2fa](assets/goose-2fa.svg)](https://github.com/eachann1024/goose-2fa)
-[![goose-notes-utools](assets/goose-notes-utools.svg)](https://github.com/eachann1024/goose-notes-utools)
-[![goose-mark](assets/goose-mark.svg)](https://github.com/eachann1024/goose-mark)
-[![goose-monitor](assets/goose-monitor.svg)](https://github.com/eachann1024/goose-monitor)
+<a href="https://github.com/eachann1024/goose-2fa"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/goose-2fa.svg"><source media="(prefers-color-scheme: light)" srcset="assets/light/goose-2fa.svg"><img alt="goose-2fa" src="assets/light/goose-2fa.svg"></picture></a>
+<a href="https://github.com/eachann1024/goose-notes-utools"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/goose-notes-utools.svg"><source media="(prefers-color-scheme: light)" srcset="assets/light/goose-notes-utools.svg"><img alt="goose-notes-utools" src="assets/light/goose-notes-utools.svg"></picture></a>
+<a href="https://github.com/eachann1024/goose-mark"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/goose-mark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/light/goose-mark.svg"><img alt="goose-mark" src="assets/light/goose-mark.svg"></picture></a>
+<a href="https://github.com/eachann1024/goose-monitor"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/goose-monitor.svg"><source media="(prefers-color-scheme: light)" srcset="assets/light/goose-monitor.svg"><img alt="goose-monitor" src="assets/light/goose-monitor.svg"></picture></a>
