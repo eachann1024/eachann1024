@@ -201,14 +201,14 @@ def block(P: dict, tag: str) -> str:
     <text class="serif" x="778" y="88" font-size="44" font-weight="700" letter-spacing="-0.8" fill="{P['ink']}">Block</text>
     {arrow_ne(1148, 72, P['muted'], 1.15)}
 
-    <text class="sans" x="708" y="148" font-size="20.5" font-weight="600" fill="{P['ink']}">Pure Go + MyGo 原生块级 Markdown 笔记</text>
-    <text class="sans" x="708" y="186" font-size="18" fill="{P['body']}">直读本地 .md 文件夹，零私有格式绑定。</text>
-    <text class="sans" x="708" y="218" font-size="18" fill="{P['body']}">支持块拖拽、Mermaid / LaTeX 与 CLI AI。</text>
+    <text class="sans" x="708" y="148" font-size="22" font-weight="600" fill="{P['ink']}">落笔成块，快若无物</text>
+    <text class="sans" x="708" y="186" font-size="18" fill="{P['body']}">免登录，直读本地 .md，十万字长文秒开。</text>
+    <text class="sans" x="708" y="218" font-size="18" fill="{P['body']}">块拖拽、速记找回、AI 对比改稿与纸面出图。</text>
 
     <line x1="708" y1="252" x2="1156" y2="252" stroke="{P['border']}" stroke-width="1.2"/>
     <text class="mono" x="708" y="286" font-size="16" font-weight="500" fill="{P['irisInk']}">block.cooool.top</text>
-    <text class="mono" x="1156" y="286" text-anchor="end" font-size="15.5" fill="{P['muted']}">Pure Go · MyGo</text>"""
-    return frame(1200, 340, f"B{tag}", "Block — Pure Go + MyGo 原生跨平台块级 Markdown 笔记", P, css, body)
+    <text class="mono" x="1156" y="286" text-anchor="end" font-size="15.5" fill="{P['muted']}">macOS · Windows · Linux</text>"""
+    return frame(1200, 340, f"B{tag}", "Block — 落笔成块，快若无物", P, css, body)
 
 
 # ------------------------------------------------------------------ #2 thinkly
